@@ -1,3 +1,4 @@
+/* HEADER ITEMS */
 /*
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
@@ -11,13 +12,13 @@
 | '--------------' || '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'  '----------------'  '----------------' 
 
-                           EXPLAIN LIKE I'M FIVE STYLESHEET
-                             Dissimulate anonymous123421
-                                  cow_co santi871
+						   EXPLAIN LIKE I'M FIVE LESS STYLESHEET
+							 Dissimulate anonymous123421
+								  cow_co santi871
 
-                        PLEASE ATTRIBUTE ALL BORROWED CSS
-                        
-                        
+						PLEASE ATTRIBUTE ALL BORROWED CSS
+						
+						
 */
 body {
   background: #f6f6f6;
@@ -28,41 +29,6 @@ html:lang(nm) body {
 html:lang(nm) a {
   color: #ddd;
 }
-/* ANNOUNCEMENTS - not ready */
-/*
-.side .usertext-body blockquote:first-of-type{
-background:transparent;
-border:none;
-height:0;
-padding:0;
-}
-.side .usertext-body blockquote:first-of-type p{
-position:absolute;
-top:164px;
-left:13px;
-right:344px;
-z-index:999;
-width:auto;
-background-color:#8cc6f8;
-color:#EFF7FF;
-padding:6px 10px 7px;
-border:1px solid #75a6d1;
-font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-font-weight:400;
-font-size:15px;
-opacity:0.7;
-}
-body:not(.listing-page) .side .usertext-body blockquote:first-of-type{
-display:none;
-}
-body.listing-page #siteTable > .thing:first-child{
-margin-top:70px !important;
-}
-body.listing-page .menuarea{
-position:relative;
-top:55px;
-}
-*/
 /* HEADER ITEMS */
 #header {
   margin: 0;
@@ -99,7 +65,7 @@ top:55px;
   z-index: -1;
 }
 #header-bottom-left > a:hover {
-  background-color: #E9F0FF;
+  background-color: #e9f0ff;
 }
 /* SUBREDDIT LIST */
 .sr-list,
@@ -140,9 +106,6 @@ top:55px;
 #sr-header-area:hover {
   opacity: 0.9;
 }
-#sr-more-link {
-  display: none;
-}
 #sr-header-area .drop-choices.srdrop {
   padding: 5px;
   margin: 1px 0 0 0;
@@ -157,61 +120,19 @@ top:55px;
   background-color: #e2e2e2;
   color: #555;
 }
+#sr-more-link {
+  display: none;
+}
 /* TABS */
 #header .tabmenu {
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  box-shadow: 0px -3px 23px 1px #3E525C inset;
+  box-shadow: 0px -3px 23px 1px #3e525c inset;
   background: #455A64;
   color: #ffffff;
   z-index: -1;
-}
-html:lang(nm) #header .tabmenu {
-  background: #666;
-}
-.tabmenu {
-  height: 34px;
-  display: inline-block;
-  margin-top: 30px;
-  text-align: left;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-}
-.tabmenu li {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  text-align: center;
-  font-weight: normal;
-}
-#header .tabmenu li:first-child {
-  margin-left: 13px;
-}
-.tabmenu li.selected {
-  position: relative;
-}
-.tabmenu li a {
-  background: transparent;
-  border: none;
-  font-size: 15px;
-  color: #ffffff;
-  height: 34px;
-  line-height: 34px;
-  display: block;
-  position: relative;
-  padding-top: 0;
-  margin: 0 6px;
-}
-.tabmenu li a:hover {
-  color: #333333;
-  text-decoration: underline;
-}
-.tabmenu li.selected a {
-  background: transparent;
-  color: #000000;
-  border: none;
 }
 #header .tabmenu li.selected a {
   color: #fff;
@@ -231,11 +152,56 @@ html:lang(nm) #header .tabmenu {
   margin-left: -9px;
   z-index: -1;
 }
-.res-nightmode #header .tabmenu li.selected a:before {
-  border-bottom-color: #262626;
+html:lang(nm) #header .tabmenu {
+  background: #666;
 }
 html:lang(nm) #header .tabmenu li.selected a:before {
   border-bottom-color: #555;
+}
+.tabmenu {
+  height: 34px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: left;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.tabmenu li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  font-weight: normal;
+}
+.tabmenu li:first-child {
+  margin-left: 13px;
+}
+.tabmenu li.selected {
+  position: relative;
+}
+.tabmenu li.selected a {
+  background: transparent;
+  color: #000000;
+  border: none;
+}
+.tabmenu li a {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  height: 34px;
+  line-height: 34px;
+  display: block;
+  position: relative;
+  padding-top: 0;
+  margin: 0 6px;
+}
+.tabmenu li a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+.res-nightmode #header .tabmenu li.selected a:before {
+  border-bottom-color: #262626;
 }
 /* USER INFO */
 #header-bottom-right:not(.res-navTop) {
@@ -252,6 +218,15 @@ html:lang(nm) #header .tabmenu li.selected a:before {
   line-height: 34px;
   bottom: 0;
 }
+#header-bottom-right a {
+  color: #fff;
+}
+#header-bottom-right .res-navTop {
+  bottom: 0;
+  height: 20px;
+  top: auto;
+  background: transparent;
+}
 .separator {
   color: white;
   margin: 0px .7ex 0px .7ex;
@@ -260,13 +235,10 @@ html:lang(nm) #header .tabmenu li.selected a:before {
 .user {
   color: white;
 }
-#header-bottom-right a {
-  color: #fff;
-}
 html:lang(nm) #header-bottom-right a,
 .submit-page #header-bottom-right a,
 .search-page #header-bottom-right a {
-  color: #aaa;
+  color: #aaaaaa;
 }
 #userbarToggle {
   background: transparent !important;
@@ -275,12 +247,6 @@ html:lang(nm) #header-bottom-right a,
   -moz-border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   border-radius: 0 !important;
-}
-#header-bottom-right.res-navTop {
-  bottom: 0;
-  height: 20px;
-  top: auto;
-  background: transparent;
 }
 /* LINKS */
 #siteTable {
@@ -297,28 +263,12 @@ html:lang(nm) #header-bottom-right a,
   padding-left: 5px;
   border-bottom: 1px solid #e2e2e2;
 }
-.thing.spam {
-  margin-right: 320px;
-}
-html:lang(nm) .link {
-  border-bottom: 1px solid #5a5a5a;
-}
-div.entry.RES-keyNav-activeElement {
-  background-color: transparent !important;
-}
-.RES-keyNav-activeElement,
-.RES-keyNav-activeElement .md-container {
-  background-color: #F6F6F6 !important;
-}
-.deleted > .entry > .grayed {
-  display: none;
-}
 .link:first-child {
   margin-top: 19px;
   border-top: 1px solid #E2E2E2;
 }
-html:lang(nm) .link:first-child {
-  border-top: 1px solid #5a5a5a;
+.link.stickied a.title {
+  color: #62b46d !important;
 }
 .link p.title {
   margin-right: 0;
@@ -329,17 +279,36 @@ html:lang(nm) .link:first-child {
   color: #2E69A4;
   margin-bottom: 6px;
 }
+.link a.title:visited {
+  color: #7c4f98 !important;
+}
+.link .flat-list {
+  font-size: 11px;
+}
+html:lang(nm) .link {
+  border-bottom: 1px solid #5a5a5a;
+}
+html:lang(nm) .link:first-child {
+  border-top: 1px solid #5a5a5a;
+}
 html:lang(nm) .link a.title {
   color: #aaa;
 }
 html:lang(nm) .link a.title:visited {
   color: #999 !important;
 }
-.link a.title:visited {
-  color: #7c4f98 !important;
+.thing.spam {
+  margin-right: 320px;
 }
-.link.stickied a.title {
-  color: #62b46d !important;
+div.entry.RES-keyNav-activeElement {
+  background-color: transparent !important;
+}
+.RES-keyNav-activeElement,
+.RES-keyNav-activeElement .md-container {
+  background-color: #F6F6F6 !important;
+}
+.deleted > .entry > .grayed {
+  display: none;
 }
 .title .domain {
   display: none;
@@ -356,23 +325,12 @@ html:lang(nm) .tagline a {
   color: #aaa;
   text-decoration: none;
 }
-.link .flat-list {
-  font-size: 11px;
-}
 .entry .buttons li a {
-  color: #999;
+  color: #999999;
 }
 .thing.spam .entry .buttons li a {
-  color: #777;
+  color: #777777;
 }
-/* locked threads */
-/*.link .linkflairlabel[title*="Locked"] + .title:after {*/
-/*    content: " - locked";*/
-/*    color: #e8898f*/
-/*    }*/
-/*.link .linkflairlabel[title*="Locked"] + .title {*/
-/*    margin-top: 40px*/
-/*    }*/
 body.post-submitter .link:not(.linkflair) .expando:after {
   display: block;
   content: "Please remember to set your question's category by clicking the 'flair' button under it.";
@@ -382,21 +340,6 @@ body.post-submitter .link:not(.linkflair) .expando:after {
   padding: 5px;
   margin-top: 5px;
 }
-/*.link .flairselectbtn {
-    font-size: 0
-    }
-
-.link .flairselectbtn:after {
-    font-size: 12px;
-    content: "mark explained";
-    color: #b3d686
-    }
-
-.link.linkflair .flairselectbtn:after {
-    font-size: 12px;
-    content: "unmark";
-    color: #bbb
-    }*/
 /* EXPANDO BUTTONS */
 .link .entry .expando-button {
   width: 20px;
@@ -486,7 +429,7 @@ body.listing-page .menuarea {
 }
 html:lang(nm) .link .usertext .md {
   background-color: #777;
-  border: 1px solid #777;
+  border: 1px solid #777777;
 }
 .userattrs {
   font-size: 0;
@@ -507,7 +450,7 @@ html:lang(nm) .link .usertext .md {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: #fafafa !important;
-  background: #999;
+  background: #999999;
 }
 .userattrs a.cakeday {
   background: transparent;
@@ -544,6 +487,7 @@ body.res .thing .tagline > a.author.moderator {
   color: #fff !important;
   background: #62b46d !important;
   /*background-color: transparent !important;*/
+
   font-weight: normal;
 }
 .mod-toolbox.res-nightmode .thing.spam,
@@ -654,7 +598,7 @@ body > .content .link .midcol,
 html:lang(nm) .linkinfo {
   border: 1px solid #888;
   background-color: #aaa;
-  color: #333;
+  color: #333333;
 }
 .side .titlebox .md {
   padding: 10px;
@@ -662,11 +606,11 @@ html:lang(nm) .linkinfo {
   margin-top: 0px;
   margin-bottom: -80px;
   background: #f6f6f6;
-  color: #666;
+  color: #666666;
 }
 html:lang(nm) .side .titlebox .md {
   background: #666;
-  color: #aaa;
+  color: #aaaaaa;
 }
 .titlebox form.toggle,
 .leavemoderator,
@@ -818,7 +762,7 @@ body.subscriber .side span.subscribe-button > a {
   margin-bottom: 60px;
 }
 html:lang(nm) .side #search input[type=text] {
-  background: #666;
+  background: #666666;
 }
 body.submit-page .side #search {
   position: absolute;
@@ -891,7 +835,7 @@ body.search-page .side .titlebox {
   font-weight: 400;
   font-size: 12px;
   background: transparent;
-  box-shadow: -3px -3px 10px 1px #1F1F1F;
+  box-shadow: -3px -3px 10px 1px #1f1f1f;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 10px;
@@ -992,6 +936,18 @@ html:lang(nm) .side a[href*="#nightmodeoff"] {
   top: 180px;
   right: 23px;
   width: 283px;
+  -moz-transition: -moz-background ease 0.2s, color ease 0.2s;
+  -o-transition: -o-background ease 0.2s, color ease 0.2s;
+  -webkit-transition: -webkit-background ease 0.2s, color ease 0.2s;
+  transition: background ease 0.2s, color ease 0.2s;
+  -moz-transition: -moz-background ease 0.2s, color ease 0.2s;
+  -o-transition: -o-background ease 0.2s, color ease 0.2s;
+  -webkit-transition: -webkit-background ease 0.2s, color ease 0.2s;
+  transition: background ease 0.2s, color ease 0.2s;
+  -moz-transition: -moz-background ease 0.2s, color ease 0.2s;
+  -o-transition: -o-background ease 0.2s, color ease 0.2s;
+  -webkit-transition: -webkit-background ease 0.2s, color ease 0.2s;
+  transition: background ease 0.2s, color ease 0.2s;
   -moz-transition: -moz-background ease 0.2s, color ease 0.2s;
   -o-transition: -o-background ease 0.2s, color ease 0.2s;
   -webkit-transition: -webkit-background ease 0.2s, color ease 0.2s;
@@ -1172,7 +1128,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
  **/
 .side a[href*="#eg"] {
   display: inline-block;
-  background: #A1887F url(%%engineering%%) 8px 6px no-repeat;
+  background: #a1887f url(%%engineering%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1194,7 +1150,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#ch"] {
   display: inline-block;
-  background: #F06292 url(%%erlenmeyer%%) 8px 6px no-repeat;
+  background: #f06292 url(%%erlenmeyer%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1216,7 +1172,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#ph"] {
   display: inline-block;
-  background: #4FC3F7 url(%%physics%%) 8px 6px no-repeat;
+  background: #4fc3f7 url(%%physics%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1238,7 +1194,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#cu"] {
   display: inline-block;
-  background: #7986CB url(%%culture%%) 8px 6px no-repeat;
+  background: #7986cb url(%%culture%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1260,7 +1216,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#bo"] {
   display: inline-block;
-  background: #4DB6AC url(%%biology2%%) 8px 6px no-repeat;
+  background: #4db6ac url(%%biology2%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1282,7 +1238,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#ma"] {
   display: inline-block;
-  background: #81C784 url(%%math%%) 8px 6px no-repeat;
+  background: #81c784 url(%%math%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1304,7 +1260,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#ec"] {
   display: inline-block;
-  background: #9575CD url(%%econ%%) 8px 6px no-repeat;
+  background: #9575cd url(%%econ%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1326,7 +1282,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
 }
 .side a[href*="#te"] {
   display: inline-block;
-  background: #78909C url(%%tech%%) 8px 6px no-repeat;
+  background: #78909c url(%%tech%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1497,7 +1453,7 @@ hr {
   display: block;
   margin: 20px 0;
   height: 1px;
-  background: #ccc;
+  background: #cccccc;
 }
 .side hr {
   margin: 5px 0 0;
@@ -1507,7 +1463,7 @@ hr {
   margin-left: -10px;
 }
 html:lang(nm) .side hr {
-  background: #555;
+  background: #555555;
 }
 .side .usertext h3 {
   background: #455A64;
@@ -1576,7 +1532,7 @@ html:lang(nm) .side .usertext h3 {
 .side .usertext h3 + ul {
   margin-top: 0;
   list-style: none
-    background: #75b3f0;
+	background: #75b3f0;
   color: #ffffff;
   top: -30px;
 }
@@ -1633,7 +1589,7 @@ div.sidebox.create {
 /* FLAIR SELECTOR */
 .flairselector h2 {
   background: #b2b2b2;
-  color: #bbb;
+  color: #bbbbbb;
 }
 .flairselection .linkflairlabel {
   left: 10%;
@@ -1674,7 +1630,7 @@ li.flairsample-left .linkflairlabel {
 .flairselector form {
   padding: 8px 0 1px;
   margin-top: 10px;
-  border-color: #DDD;
+  border-color: #dddddd;
 }
 .flairselector li {
   padding-bottom: 10px;
@@ -1685,7 +1641,7 @@ li.flairsample-left .linkflairlabel {
 }
 .flairselector .flairremove {
   margin: 5px 0;
-  color: #888;
+  color: #888888;
 }
 html:lang(nm) .linkflairlabel {
   opacity: 0.7;
@@ -1706,7 +1662,7 @@ html:lang(nm) .linkflairlabel {
   background-size: 16px;
 }
 .linkflairlabel[title*="Removed"] {
-  background: #ccc url(%%removed%%) 5px 6px no-repeat;
+  background: #cccccc url(%%removed%%) 5px 6px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 12px;
@@ -1718,7 +1674,7 @@ html:lang(nm) .linkflairlabel {
   background-size: 12px;
 }
 .linkflairlabel[title*="Recent event"] {
-  background: #90A4AE url(%%event%%) 7px 5px no-repeat;
+  background: #90a4ae url(%%event%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
@@ -1733,55 +1689,55 @@ html:lang(nm) .linkflairlabel {
  *  test for category flair
  **/
 .linkflairlabel[title*="Engineering"] {
-  background: #A1887F url(%%engineering%%) 7px 5px no-repeat;
+  background: #a1887f url(%%engineering%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Culture"] {
-  background: #7986CB url(%%culture%%) 7px 5px no-repeat;
+  background: #7986cb url(%%culture%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Physics"] {
-  background: #4FC3F7 url(%%physics%%) 7px 5px no-repeat;
+  background: #4fc3f7 url(%%physics%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Chemistry"] {
-  background: #F06292 url(%%erlenmeyer%%) 7px 5px no-repeat;
+  background: #f06292 url(%%erlenmeyer%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Biology"] {
-  background: #4DB6AC url(%%biology2%%) 7px 5px no-repeat;
+  background: #4db6ac url(%%biology2%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Mathematics"] {
-  background: #81C784 url(%%math%%) 7px 5px no-repeat;
+  background: #81c784 url(%%math%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Economics"] {
-  background: #9575CD url(%%econ%%) 7px 5px no-repeat;
+  background: #9575cd url(%%econ%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Technology"] {
-  background: #78909C url(%%tech%%) 7px 5px no-repeat;
+  background: #78909c url(%%tech%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
 }
 .linkflairlabel[title*="Other"] {
-  background: #9E9E9E url(%%misc%%) 7px 5px no-repeat;
+  background: #9e9e9e url(%%misc%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
   background-size: 16px;
@@ -1903,7 +1859,7 @@ textarea {
 }
 html:lang(nm) textarea {
   background: #888;
-  border: 1px solid #888;
+  border: 1px solid #888888;
 }
 .commentarea > .usertext > .usertext-edit > .bottom-area {
   width: 506px;
@@ -1923,11 +1879,12 @@ html:lang(nm) textarea {
 }
 html:lang(nm) .commentarea > .usertext > .usertext-edit > .bottom-area:before {
   background: #777;
-  color: #555;
+  color: #555555;
 }
 /* experimental Snewzie - https://www.reddit.com/r/csshelp/comments/yvvw7/increasing_the_height_of_comment_boxes_self_post/? */
 .usertext-edit textarea {
   /*    width: 750px; */
+
   height: 250px;
 }
 .comment .midcol {
@@ -1971,7 +1928,7 @@ ul.report-reasons {
   color: #262626;
 }
 html:lang(nm) .usertext-body p {
-  color: #aaa;
+  color: #aaaaaa;
 }
 .comment .child,
 .comment .showreplies {
@@ -1979,7 +1936,7 @@ html:lang(nm) .usertext-body p {
 }
 html:lang(nm) .comment .child,
 .comment .showreplies {
-  border-left: 1px solid #666;
+  border-left: 1px solid #666666;
 }
 .comment .usertext[id*="commentreply"] {
   margin-left: 20px;
@@ -2075,11 +2032,11 @@ body.search-page .side .titlebox {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0
-    color: white !important;
+	color: white !important;
   box-shadow: 0px 1px 3px 0.5px #ccc;
 }
 html:lang(nm) .roundfield {
-  background-color: #666;
+  background-color: #666666;
 }
 #newlink .infobar {
   background-color: transparent;
@@ -2105,6 +2062,7 @@ html:lang(nm) .roundfield {
   margin-left: 8px;
   position: relative;
   /*top: 65px;*/
+
   margin-right: 320px;
   margin-top: 5px;
 }
@@ -2258,7 +2216,7 @@ html:lang(nm) .side .usertext a[href^="/tip"]:before {
   background: transparent !important;
 }
 .res .livePreview {
-  background: #fff;
+  background: #ffffff;
 }
 .res-commentBoxes .comment {
   overflow: visible !important;
@@ -2288,7 +2246,7 @@ button {
 html:lang(nm) button {
   background: #d2d2d2;
   border: 1px solid #c2c2c2;
-  color: #888;
+  color: #888888;
 }
 #stylesheet_contents,
 #default_stylesheet {
@@ -2321,6 +2279,7 @@ html:lang(nm) button {
   vertical-align: super;
   font-size: 80%;
   /* Undo the new <code> styles */
+
   border: none;
   background-color: transparent;
   margin: 0;
@@ -2468,3 +2427,5 @@ body.wiki-page:lang(np) div.wiki-page-content form#editform input[type='submit']
 .link.promotedlink.external {
   margin-right: 0;
 }
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
