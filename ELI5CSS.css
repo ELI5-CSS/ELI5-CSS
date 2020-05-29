@@ -31,77 +31,22 @@ html:lang(nm) body {
 html:lang(nm) a {
   color: #ddd
   }
-/*
-body:before {
-  height: 270px;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  content: "";
-  text-indent: -9999px;
-  z-index: 9999;
-  background-image: url(%%flake1%%), url(%%flake2%%), url(%%flake3%%);
-  background-repeat: repeat, repeat, repeat;
-  background-position: 0 0, 0 0, 0 0, 50% 0;
-  animation: snow 30s linear infinite;
-  -webkit-animation: snow 30s linear infinite;
-}
 
-@keyframes snow {
-  from {
-      background-position: 0 0, 0 0, 0 0;
-  }
-  to {
-      background-position: 500px 1000px,400px 400px,300px 300px;
-  }
-}
-@-webkit-keyframes snow {
-  from {
-      background-position: 0 0, 0 0, 0 0;
-  }
-  to {
-      background-position: 500px 1000px,400px 400px,300px 300px;
-  }
-}
-*/
-/* ANNOUNCEMENTS - not ready */
-/*
-.side .usertext-body blockquote:first-of-type{
-background:transparent;
-border:none;
-height:0;
-padding:0;
-}
-.side .usertext-body blockquote:first-of-type p{
-position:absolute;
-top:164px;
-left:13px;
-right:344px;
-z-index:999;
-width:auto;
-background-color:#8cc6f8;
-color:#EFF7FF;
-padding:6px 10px 7px;
-border:1px solid #75a6d1;
-font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-font-weight:400;
-font-size:15px;
-opacity:0.7;
-}
-body:not(.listing-page) .side .usertext-body blockquote:first-of-type{
-display:none;
-}
-body.listing-page #siteTable > .thing:first-child{
-margin-top:70px !important;
-}
-body.listing-page .menuarea{
-position:relative;
-top:55px;
-}
-*/
 /* HEADER ITEMS */
+
+/* 10 million header
+.pagename a {
+  background-image: url(%%header10mil%%);
+  background-repeat: no-repeat;
+  font-size: 0;
+  display: inline-block;
+  width: 480px;
+  height: 52px;
+  margin: 0 auto;
+  margin-top: -10px
+  } 
+*/
+
 #header {
   margin: 0;
   height: 135px;
@@ -133,19 +78,6 @@ top:55px;
   margin: 0 auto;
   margin-top: -10px
   } 
-  
-/* 10 million header
-.pagename a {
-  background-image: url(%%header10mil%%);
-  background-repeat: no-repeat;
-  font-size: 0;
-  display: inline-block;
-  width: 480px;
-  height: 52px;
-  margin: 0 auto;
-  margin-top: -10px
-  } 
-*/
 
 #header-img {
   position: absolute;
@@ -491,24 +423,7 @@ body.post-submitter .link:not(.linkflair) .expando:after {
   font-size: 16px;
   padding: 5px;
   margin-top: 5px
-  }
-
-/*.link .flairselectbtn {
-  font-size: 0
-  }
-
-.link .flairselectbtn:after {
-  font-size: 12px;
-  content: "mark explained";
-  color: #b3d686
-  }
-
-.link.linkflair .flairselectbtn:after {
-  font-size: 12px;
-  content: "unmark";
-  color: #bbb
-  }*/
-  
+  }  
 
 /* EXPANDO BUTTONS */
 .link .entry .expando-button {
@@ -727,44 +642,46 @@ width: 5.1ex;
   width: 26px
   }
 
+  /* TODO Fix RES conflicts (the arrow-image setting does not seem to work with RES) */
+
 .arrow.up {
-  background-image: url(%%up%%);
-  background-position: 0 0
+  background-image: url(%%up%%) !important;
+  background-position: 0 0 !important
   }
 
 .res-nightmode .arrow.up {
-  background-image: url(%%up%%);
-  background-position: 0 0
+  background-image: url(%%up%%) !important;
+  background-position: 0 0 !important
 }
 
 .arrow.upmod {
-  background-image: url(%%up-voted%%);
-  background-position: 0 0
+  background-image: url(%%up-voted%%) !important;
+  background-position: 0 0 !important
   }
   
 .res-nightmode .arrow.upmod {
-  background-image: url(%%up-voted%%);
-  background-position: 0 0
+  background-image: url(%%up-voted%%) !important;
+  background-position: 0 0 !important
   }
 
 .arrow.down {
-  background-image: url(%%down%%);
-  background-position: 0 0
+  background-image: url(%%down%%) !important;
+  background-position: 0 0 !important
   }
   
 .res-nightmode .arrow.down {
-  background-image: url(%%down%%);
-  background-position: 0 0
+  background-image: url(%%down%%) !important;
+  background-position: 0 0 !important
   }
 
 .arrow.downmod {
-  background-image: url(%%down-voted%%);
-  background-position: 0 0
+  background-image: url(%%down-voted%%) !important;
+  background-position: 0 0 !important
   }
   
 .res-nightmode .arrow.downmod {
-  background-image: url(%%down-voted%%);
-  background-position: 0 0
+  background-image: url(%%down-voted%%) !important;
+  background-position: 0 0 !important
   }
 
 .midcol {
@@ -1402,7 +1319,7 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   display: inline-block;
   color: #ffffff;
   background: #FF9800;
-  width: 43.5%;
+  width: 99.5%;
   height: 26px;
   /*right: -3px;*/
   font-weight: bold;
@@ -1412,8 +1329,15 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   /*margin-left: 5px;*/
   padding-top: 8px;
   /*padding-left: 2.5%;*/
-  padding-right: 2.5%;
   transition: 0.2s ease-in-out;
+}
+
+.side ul a[href*="/detailed_rules"] {
+  padding: 0 0;
+  margin: auto;
+  background-color: inherit;
+  display: contents;
+  color: #ff9800;
 }
 
 .side a[href*="/detailed_rules"]:hover
@@ -1431,6 +1355,14 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   background: hsl(27, 36%, 45%);
   color: white;
   
+}
+
+.res-nightmode .side ul a[href*="/detailed_rules"] {
+  padding: 0 0;
+  margin: auto;
+  background-color: inherit;
+  display: contents;
+  color: #ff9800;
 }
 
 .res-nightmode .side a[href*="/detailed_rules"]:hover
