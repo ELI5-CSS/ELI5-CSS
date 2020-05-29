@@ -1,4 +1,3 @@
-/* HEADER ITEMS */
 /*
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
@@ -12,23 +11,96 @@
 | '--------------' || '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'  '----------------'  '----------------' 
 
-						   EXPLAIN LIKE I'M FIVE LESS STYLESHEET
-							 Dissimulate anonymous123421
-								  cow_co santi871
+                           EXPLAIN LIKE I'M FIVE STYLESHEET
+                             Dissimulate anonymous123421
+                                  cow_co santi871
 
-						PLEASE ATTRIBUTE ALL BORROWED CSS
-						
-						
+                        PLEASE ATTRIBUTE ALL BORROWED CSS
+                        
+                        
 */
+
 body {
-  background: #f6f6f6;
-}
+  background: #f6f6f6
+  }
+
 html:lang(nm) body {
-  background: #555;
-}
+  background: #555
+  }
+
 html:lang(nm) a {
-  color: #ddd;
+  color: #ddd
+  }
+/*
+body:before {
+  height: 270px;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  content: "";
+  text-indent: -9999px;
+  z-index: 9999;
+  background-image: url(%%flake1%%), url(%%flake2%%), url(%%flake3%%);
+  background-repeat: repeat, repeat, repeat;
+  background-position: 0 0, 0 0, 0 0, 50% 0;
+  animation: snow 30s linear infinite;
+  -webkit-animation: snow 30s linear infinite;
 }
+
+@keyframes snow {
+  from {
+      background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+      background-position: 500px 1000px,400px 400px,300px 300px;
+  }
+}
+@-webkit-keyframes snow {
+  from {
+      background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+      background-position: 500px 1000px,400px 400px,300px 300px;
+  }
+}
+*/
+/* ANNOUNCEMENTS - not ready */
+/*
+.side .usertext-body blockquote:first-of-type{
+background:transparent;
+border:none;
+height:0;
+padding:0;
+}
+.side .usertext-body blockquote:first-of-type p{
+position:absolute;
+top:164px;
+left:13px;
+right:344px;
+z-index:999;
+width:auto;
+background-color:#8cc6f8;
+color:#EFF7FF;
+padding:6px 10px 7px;
+border:1px solid #75a6d1;
+font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight:400;
+font-size:15px;
+opacity:0.7;
+}
+body:not(.listing-page) .side .usertext-body blockquote:first-of-type{
+display:none;
+}
+body.listing-page #siteTable > .thing:first-child{
+margin-top:70px !important;
+}
+body.listing-page .menuarea{
+position:relative;
+top:55px;
+}
+*/
 /* HEADER ITEMS */
 #header {
   margin: 0;
@@ -42,12 +114,15 @@ html:lang(nm) a {
   border-bottom: none !important;
   z-index: 1;
 }
+
 .pagename {
   position: absolute;
   top: 36px;
   left: 120px;
-  font-size: 0;
-}
+  font-size: 0
+  }
+
+
 .pagename a {
   background-image: url(%%eli5%%);
   background-repeat: no-repeat;
@@ -56,27 +131,43 @@ html:lang(nm) a {
   width: 400px;
   height: 52px;
   margin: 0 auto;
-  margin-top: -10px;
-}
+  margin-top: -10px
+  } 
+  
+/* 10 million header
+.pagename a {
+  background-image: url(%%header10mil%%);
+  background-repeat: no-repeat;
+  font-size: 0;
+  display: inline-block;
+  width: 480px;
+  height: 52px;
+  margin: 0 auto;
+  margin-top: -10px
+  } 
+*/
+
 #header-img {
   position: absolute;
   top: 40px;
   left: 20px;
-  z-index: -1;
-}
+  z-index: -1
+  }
+
 #header-bottom-left > a:hover {
-  background-color: #e9f0ff;
-}
+  background-color: #E9F0FF
+  }
+
 /* SUBREDDIT LIST */
-.sr-list,
-#srLeftContainer {
-  padding-left: 28px;
-}
+.sr-list, #srLeftContainer {
+  padding-left: 28px
+  }
+
 .sr-bar a {
-  color: #eaeaea;
-}
-#sr-header-area .srdrop.dropdown,
-#srDropdown {
+  color: #eaeaea
+  }
+
+#sr-header-area .srdrop.dropdown, #srDropdown {
   width: 20px;
   height: 20px;
   padding: 0;
@@ -89,8 +180,9 @@ html:lang(nm) a {
   text-indent: -999px;
   opacity: 0.8;
   cursor: pointer;
-  z-index: 999;
-}
+  z-index: 999
+  }
+
 #sr-header-area {
   background: #222;
   border-bottom: none;
@@ -101,42 +193,104 @@ html:lang(nm) a {
   transition: all 0.5s;
   z-index: 999;
   height: 20px;
-  line-height: 20px;
-}
+  line-height: 20px
+  }
+
 #sr-header-area:hover {
-  opacity: 0.9;
-}
+  opacity: 0.9
+  }
+
+#sr-more-link {
+  display: none
+  }
+
 #sr-header-area .drop-choices.srdrop {
   padding: 5px;
   margin: 1px 0 0 0;
   background: #F5F5F5;
   border: none;
-  z-index: 999;
-}
+  z-index: 999
+  }
+
 #sr-header-area .drop-choices a.choice {
-  color: #777;
-}
+  color: #777
+  }
+
 #sr-header-area .drop-choices a.choice:hover {
   background-color: #e2e2e2;
-  color: #555;
-}
-#sr-more-link {
-  display: none;
-}
+  color: #555
+  }
+
 /* TABS */
 #header .tabmenu {
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  box-shadow: 0px -3px 23px 1px #3e525c inset;
+  box-shadow: 0px -3px 23px 1px #3E525C inset;
   background: #455A64;
   color: #ffffff;
-  z-index: -1;
+  z-index: -1
+  }
+
+html:lang(nm) #header .tabmenu {
+  background: #666
+  }
+
+.tabmenu {
+  height: 34px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: left;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400
+  }
+
+.tabmenu li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  font-weight: normal
+  }
+
+#header .tabmenu li:first-child {
+  margin-left: 13px
+  }
+
+.tabmenu li.selected {
+  position: relative
+  }
+
+.tabmenu li a {
+  background: transparent;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+  height: 34px;
+  line-height: 34px;
+  display: block;
+  position: relative;
+  padding-top: 0;
+  margin: 0 6px
+  }
+
+.tabmenu li a:hover
+{
+  color: #eef0f1;
+  text-decoration: underline;
 }
+
+.tabmenu li.selected a {
+  background: transparent;
+  color: #000000;
+  border: none
+  }
+
 #header .tabmenu li.selected a {
-  color: #fff;
-}
+  color: #fff
+  }
+
 #header .tabmenu li.selected a:before {
   bottom: -1px;
   left: 50%;
@@ -150,59 +304,17 @@ html:lang(nm) a {
   border-bottom-color: #f6f6f6;
   border-width: 9px;
   margin-left: -9px;
-  z-index: -1;
-}
-html:lang(nm) #header .tabmenu {
-  background: #666;
-}
-html:lang(nm) #header .tabmenu li.selected a:before {
-  border-bottom-color: #555;
-}
-.tabmenu {
-  height: 34px;
-  display: inline-block;
-  margin-top: 30px;
-  text-align: left;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-}
-.tabmenu li {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  text-align: center;
-  font-weight: normal;
-}
-.tabmenu li:first-child {
-  margin-left: 13px;
-}
-.tabmenu li.selected {
-  position: relative;
-}
-.tabmenu li.selected a {
-  background: transparent;
-  color: #000000;
-  border: none;
-}
-.tabmenu li a {
-  background: transparent;
-  border: none;
-  font-size: 15px;
-  color: #ffffff;
-  height: 34px;
-  line-height: 34px;
-  display: block;
-  position: relative;
-  padding-top: 0;
-  margin: 0 6px;
-}
-.tabmenu li a:hover {
-  color: #333333;
-  text-decoration: underline;
-}
+  z-index: -1
+  }
+  
 .res-nightmode #header .tabmenu li.selected a:before {
   border-bottom-color: #262626;
-}
+  }
+
+html:lang(nm) #header .tabmenu li.selected a:before {
+  border-bottom-color: #555
+  }
+
 /* USER INFO */
 #header-bottom-right:not(.res-navTop) {
   background: transparent;
@@ -217,41 +329,51 @@ html:lang(nm) #header .tabmenu li.selected a:before {
   height: 34px;
   line-height: 34px;
   bottom: 0;
+  }
+  
+.beta-hint a {
+  top: 9px;
 }
-#header-bottom-right a {
-  color: #fff;
-}
-#header-bottom-right .res-navTop {
-  bottom: 0;
-  height: 20px;
-  top: auto;
-  background: transparent;
-}
+  
 .separator {
   color: white;
   margin: 0px .7ex 0px .7ex;
   cursor: default;
 }
+
 .user {
   color: white;
 }
-html:lang(nm) #header-bottom-right a,
-.submit-page #header-bottom-right a,
-.search-page #header-bottom-right a {
-  color: #aaaaaa;
-}
+
+#header-bottom-right a {
+  color: #fff
+  }
+
+html:lang(nm) #header-bottom-right a, .submit-page #header-bottom-right a, .search-page #header-bottom-right a {
+  color: #aaa
+  }
+
 #userbarToggle {
   background: transparent !important;
   color: white;
   border: none !important;
   -moz-border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
-  border-radius: 0 !important;
-}
+  border-radius: 0 !important
+  }
+
+#header-bottom-right.res-navTop {
+  bottom: 0;
+  height: 20px;
+  top: auto;
+  background: transparent;
+  }
+
 /* LINKS */
 #siteTable {
-  margin-left: 8px;
-}
+  margin-left: 8px
+  }
+
 .link {
   margin-right: 325px;
   margin-left: 0;
@@ -261,76 +383,106 @@ html:lang(nm) #header-bottom-right a,
   margin-bottom: 0;
   position: relative;
   padding-left: 5px;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2
+  }
+  
+.thing.spam {
+  margin-right: 320px;
+  }
+
+html:lang(nm) .link {
+  border-bottom: 1px solid #5a5a5a
+  }
+
+div.entry.RES-keyNav-activeElement {
+  background-color: transparent !important
+  }
+  
+.RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container {
+  background-color: #F6F6F6 !important;
 }
+
+.deleted > .entry > .grayed {
+  display: none
+  }
+
 .link:first-child {
   margin-top: 19px;
   border-top: 1px solid #E2E2E2;
-}
-.link.stickied a.title {
-  color: #62b46d !important;
-}
+  }
+
+html:lang(nm) .link:first-child {
+  border-top: 1px solid #5a5a5a
+  }
+
 .link p.title {
   margin-right: 0;
   margin-bottom: 4px;
-}
+  }
+
 .link a.title {
   font-size: 16px;
   color: #2E69A4;
-  margin-bottom: 6px;
-}
-.link a.title:visited {
-  color: #7c4f98 !important;
-}
-.link .flat-list {
-  font-size: 11px;
-}
-html:lang(nm) .link {
-  border-bottom: 1px solid #5a5a5a;
-}
-html:lang(nm) .link:first-child {
-  border-top: 1px solid #5a5a5a;
-}
+  margin-bottom: 6px
+  }
+
 html:lang(nm) .link a.title {
-  color: #aaa;
-}
+  color: #aaa
+  }
+
 html:lang(nm) .link a.title:visited {
-  color: #999 !important;
-}
-.thing.spam {
-  margin-right: 320px;
-}
-div.entry.RES-keyNav-activeElement {
-  background-color: transparent !important;
-}
-.RES-keyNav-activeElement,
-.RES-keyNav-activeElement .md-container {
-  background-color: #F6F6F6 !important;
-}
-.deleted > .entry > .grayed {
-  display: none;
-}
+  color: #999 !important
+  }
+
+.link a.title:visited {
+  color: #7c4f98 !important
+  }
+
+.link.stickied a.title {
+  color: #62b46d !important
+  }
+
 .title .domain {
-  display: none;
-}
+  display: none
+  }
+
 .linklisting .link .thumbnail {
-  display: none;
-}
+  display: none
+  }
+
 .link .tagline {
   font-size: 12px;
   margin: 0px 0 1px 0;
   vertical-align: text-top;
-}
+  }
+
 html:lang(nm) .tagline a {
   color: #aaa;
-  text-decoration: none;
-}
+  text-decoration: none
+  }
+
+.link .flat-list {
+  font-size: 11px
+  }
+
 .entry .buttons li a {
-  color: #999999;
-}
+  color: #999
+  }
+  
 .thing.spam .entry .buttons li a {
-  color: #777777;
-}
+  color: #777
+  }
+
+/* locked threads */
+/*.link .linkflairlabel[title*="Locked"] + .title:after {*/
+/*    content: " - locked";*/
+/*    color: #e8898f*/
+/*    }*/
+
+/*.link .linkflairlabel[title*="Locked"] + .title {*/
+/*    margin-top: 40px*/
+/*    }*/
+
 body.post-submitter .link:not(.linkflair) .expando:after {
   display: block;
   content: "Please remember to set your question's category by clicking the 'flair' button under it.";
@@ -338,102 +490,136 @@ body.post-submitter .link:not(.linkflair) .expando:after {
   color: #fff;
   font-size: 16px;
   padding: 5px;
-  margin-top: 5px;
-}
+  margin-top: 5px
+  }
+
+/*.link .flairselectbtn {
+  font-size: 0
+  }
+
+.link .flairselectbtn:after {
+  font-size: 12px;
+  content: "mark explained";
+  color: #b3d686
+  }
+
+.link.linkflair .flairselectbtn:after {
+  font-size: 12px;
+  content: "unmark";
+  color: #bbb
+  }*/
+  
+
 /* EXPANDO BUTTONS */
 .link .entry .expando-button {
   width: 20px;
   height: 20px;
   margin: 4px 8px 0 0;
-  background: url(%%buttons%%) no-repeat -9999px -9999px !important;
-}
+  background: url(%%buttons%%) no-repeat -9999px -9999px !important
+  }
+
 .link .expando-button:hover {
-  cursor: pointer;
-}
+  cursor: pointer
+  }
+
 .link .entry .expando-button.selftext.collapsed {
-  background-position: 0 -38px !important;
-}
+  background-position: 0 -38px !important
+  }
+
 .link .entry .expando-button.selftext.collapsed:hover {
-  background-position: -20px -38px !important;
-}
+  background-position: -20px -38px !important
+  }
+
 html:lang(nm) .link .entry .expando-button.selftext.collapsed {
-  background-position: -40px -38px !important;
-}
+  background-position: -40px -38px !important
+  }
+
 html:lang(nm) .link .entry .expando-button.selftext.collapsed:hover {
-  background-position: -60px -38px !important;
-}
+  background-position: -60px -38px !important
+  }
+
 .link .entry .expando-button.selftext.expanded {
-  background-position: 0 -58px !important;
-}
+  background-position: 0 -58px !important
+  }
+
 .link .entry .expando-button.selftext.expanded:hover {
-  background-position: -20px -58px !important;
-}
+  background-position: -20px -58px !important
+  }
+
 html:lang(nm) .link .entry .expando-button.selftext.expanded {
-  background-position: -40px -58px !important;
-}
+  background-position: -40px -58px !important
+  }
+
 html:lang(nm) .link .entry .expando-button.selftext.expanded:hover {
-  background-position: -60px -58px !important;
-}
-.link .entry .expando-button.video.collapsed,
-.link .entry .expando-button.video.expanded {
-  background-position: 0 -78px !important;
-}
-.link .entry .expando-button.video.collapsed:hover,
-.link .entry .expando-button.video.expanded:hover {
-  background-position: -20px -78px !important;
-}
-html:lang(nm) .link .entry .expando-button.video.collapsed,
-html:lang(nm) .link .entry .expando-button.video.expanded {
-  background-position: -40px -78px !important;
-}
-html:lang(nm) .link .entry .expando-button.video.collapsed:hover,
-html:lang(nm) .link .entry .expando-button.video.expanded:hover {
-  background-position: -60px -78px !important;
-}
-.res .link .entry .expando-button.image.collapsedExpando,
-.res .link .entry .expando-button.image.expanded {
-  background-position: 0 -98px !important;
-}
-.res .link .entry .expando-button.image.collapsedExpando:hover,
-.res .link .entry .expando-button.image.expanded:hover {
-  background-position: -20px -98px !important;
-}
-html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando,
-html:lang(nm) .res .link .entry .expando-button.image.expanded {
-  background-position: -40px -98px !important;
-}
-html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando:hover,
-html:lang(nm) .res .link .entry .expando-button.image.expanded:hover {
-  background-position: -60px -98px !important;
-}
+  background-position: -60px -58px !important
+  }
+
+.link .entry .expando-button.video.collapsed, .link .entry .expando-button.video.expanded {
+  background-position: 0 -78px !important
+  }
+
+.link .entry .expando-button.video.collapsed:hover, .link .entry .expando-button.video.expanded:hover {
+  background-position: -20px -78px !important
+  }
+
+html:lang(nm) .link .entry .expando-button.video.collapsed, html:lang(nm) .link .entry .expando-button.video.expanded {
+  background-position: -40px -78px !important
+  }
+
+html:lang(nm) .link .entry .expando-button.video.collapsed:hover, html:lang(nm) .link .entry .expando-button.video.expanded:hover {
+  background-position: -60px -78px !important
+  }
+
+.res .link .entry .expando-button.image.collapsedExpando, .res .link .entry .expando-button.image.expanded {
+  background-position: 0 -98px !important
+  }
+
+.res .link .entry .expando-button.image.collapsedExpando:hover, .res .link .entry .expando-button.image.expanded:hover {
+  background-position: -20px -98px !important
+  }
+
+html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando, html:lang(nm) .res .link .entry .expando-button.image.expanded {
+  background-position: -40px -98px !important
+  }
+
+html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando:hover, html:lang(nm) .res .link .entry .expando-button.image.expanded:hover {
+  background-position: -60px -98px !important
+  }
+
 .panestack-title {
-  margin-right: 320px;
-}
+  margin-right: 320px
+  }
+
 .menuarea {
   margin-right: 320px;
   margin-left: -2px;
   margin-bottom: -4px;
   margin-top: 4px;
-  border-bottom: none;
-}
+  border-bottom: none
+  }
+
 body.listing-page .menuarea {
-  overflow: visible;
-}
+  overflow: visible
+  }
+
 .link .usertext .md {
   background-color: #f6f6f6;
   border: 1px solid #eaeaea;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  font-size: 14px;
-}
+  font-size: 14px
+  }
+
 html:lang(nm) .link .usertext .md {
   background-color: #777;
-  border: 1px solid #777777;
-}
+  border: 1px solid #777
+  }
+
 .userattrs {
-  font-size: 0;
-}
+  font-size: 0
+  }
+
 .userattrs a {
   font-size: 9px;
   position: relative;
@@ -450,127 +636,164 @@ html:lang(nm) .link .usertext .md {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: #fafafa !important;
-  background: #999999;
-}
+  background: #999
+  }
+  
 .userattrs a.cakeday {
+  
   background: transparent;
 }
+
 .link .userattrs a {
-  top: -1px;
-}
+  top: -1px
+  }
+
 .userattrs a:hover {
-  text-decoration: none;
-}
+  text-decoration: none
+  }
+
 .userattrs .moderator {
   color: #fafafa;
-  background: #62b46d;
-}
+  background: #62b46d
+  }
+
+.userattrs .submitter {
+  color: #fafafa;
+  background: #75b2e6
+  }
+
 a.author {
-  margin-right: 4px;
-}
+  margin-right: 4px
+  }
+
 a.author.submitter {
-  color: #75b2e6;
-}
+  color: #fafafa;
+  background: #75b2e6;
+  vertical-align: middle;
+  padding: 0 4px;
+  border-radius: 3px;
+  }
+
 a.author.moderator {
   color: #fff !important;
   background: #62b46d !important;
   vertical-align: middle;
   padding: 0 4px;
   border-radius: 3px;
-}
+  }
+
 body.res .thing .tagline > a.author.submitter {
-  color: #75b2e6 !important;
-  background-color: transparent !important;
+  color: #fafafa;
+  background: #75b2e6 !important;
+  /*background-color: transparent !important;*/
   font-weight: normal;
-}
+  }
+
 body.res .thing .tagline > a.author.moderator {
   color: #fff !important;
   background: #62b46d !important;
   /*background-color: transparent !important;*/
+  font-weight: normal
+  }
+  
+.mod-toolbox.res-nightmode .thing.spam, .mod-toolbox.res-nightmode .thing.spam {
+  background-color: rgb(98, 28, 28) !important;
+}
 
-  font-weight: normal;
-}
-.mod-toolbox.res-nightmode .thing.spam,
-.mod-toolbox.res-nightmode .thing.spam {
-  background-color: #621c1c !important;
-}
 body.res .comment .tagline > a.author {
-  font-weight: bold !important;
-}
-.userattrs .submitter {
-  color: #fafafa;
-  background: #75b2e6;
-}
+  font-weight: bold !important
+  }
+
 .link .rank {
-  display: none;
-}
+  display: none
+  }
+
 /* VOTING */
+
 .link .midcol {
-  min-width: 35px;
-  margin-right: 25px;
-  margin-left: 0px;
-  overflow: visible;
+min-width:35px;
+margin-right:25px;
+margin-left:0px;
+overflow:visible
 }
-body > .content .link .midcol,
-.midcol-spacer {
-  width: 5.1ex;
+
+
+body > .content .link .midcol, .midcol-spacer
+{
+width: 5.1ex;
 }
+
 .arrow {
-  width: 26px;
-}
+  width: 26px
+  }
+
 .arrow.up {
   background-image: url(%%up%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+
 .res-nightmode .arrow.up {
   background-image: url(%%up%%);
-  background-position: 0 0;
+  background-position: 0 0
 }
+
 .arrow.upmod {
   background-image: url(%%up-voted%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+  
 .res-nightmode .arrow.upmod {
   background-image: url(%%up-voted%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+
 .arrow.down {
   background-image: url(%%down%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+  
 .res-nightmode .arrow.down {
   background-image: url(%%down%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+
 .arrow.downmod {
   background-image: url(%%down-voted%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+  
 .res-nightmode .arrow.downmod {
   background-image: url(%%down-voted%%);
-  background-position: 0 0;
-}
+  background-position: 0 0
+  }
+
 .midcol {
   margin-left: 0;
-  opacity: 0.8;
-}
+  opacity: 0.8
+  }
+
 .gadget .midcol {
-  width: 30px;
-}
+  width: 30px
+  }
+
 .link .score {
-  margin-top: 2px;
-}
+  margin-top: 2px
+  }
+
 .link .score.likes {
-  color: #ff8932;
-}
+  color: #ff8932
+  }
+
 .link .score.dislikes {
-  color: #2178b8;
-}
+  color: #2178b8
+  }
+
 .commentarea .infobar {
   margin-right: 318px;
   margin-left: 9px;
-  margin-bottom: 16px;
-}
+  margin-bottom: 16px
+  }
+
 /* SIDEBAR */
 .side {
   margin-right: 10px;
@@ -580,10 +803,12 @@ body > .content .link .midcol,
   font-weight: 400;
   font-size: 12px;
   background: transparent;
-}
+  }
+
 .side h1.redditname {
-  display: none;
-}
+  display: none
+  }
+
 .linkinfo {
   padding: 5px;
   border: 1px solid #009688;
@@ -593,31 +818,33 @@ body > .content .link .midcol,
   font-size: larger;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border-radius: 0;
-}
+  border-radius: 0
+  }
+
 html:lang(nm) .linkinfo {
   border: 1px solid #888;
   background-color: #aaa;
-  color: #333333;
-}
+  color: #333
+  }
+
 .side .titlebox .md {
   padding: 10px;
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: -80px;
   background: #f6f6f6;
-  color: #666666;
-}
+  color: #666
+  }
+
 html:lang(nm) .side .titlebox .md {
   background: #666;
-  color: #aaaaaa;
-}
-.titlebox form.toggle,
-.leavemoderator,
-.sidebox .spacer,
-.icon-menu a {
-  background: transparent;
-}
+  color: #aaa
+  }
+
+.titlebox form.toggle, .leavemoderator, .sidebox .spacer, .icon-menu a {
+  background: transparent
+  }
+
 .titlebox h1:not(.redditname) {
   background: #eaeaea !important;
   margin-left: -10px;
@@ -632,8 +859,9 @@ html:lang(nm) .side .titlebox .md {
   cursor: default;
   text-align: center;
   font-weight: normal;
-  position: relative;
-}
+  position: relative
+  }
+
 .titlebox h1:not(.redditname):before {
   background: #fff;
   display: block;
@@ -642,38 +870,46 @@ html:lang(nm) .side .titlebox .md {
   left: -10px;
   height: 10px;
   width: 300px;
-  content: " ";
-}
+  content: " "
+  }
+
 .side .md {
   width: auto;
   overflow: visible;
-  font-size: 13px;
-}
+  font-size: 13px
+  }
+
 .subscribers {
   display: block;
   text-align: center;
-  font-size: 16px;
-}
+  font-size: 16px
+  }
+  
 html:lang(nm) .subscribers span,
 html:lang(nm) .users-online span,
 html:lang(nm) .users-online:after {
   color: #aaa;
-}
+  }
+
 .users-online {
   margin-top: 4px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 14px;
-}
+  font-size: 14px
+  }
+
 .users-online:before {
-  display: none;
-}
+  display: none
+  }
+
 .users-online .word {
-  display: none;
-}
+  display: none
+  }
+
 .users-online:after {
-  content: "online";
-}
+  content: "online"
+  }
+
 .users-online .number:before {
   content: " ";
   display: inline-block;
@@ -684,18 +920,21 @@ html:lang(nm) .users-online:after {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   margin-top: 4px;
-  margin-right: 4px;
-}
+  margin-right: 4px
+  }
+
 div.hover-bubble {
-  z-index: 2147483647 !important;
-}
+  z-index: 2147483647 !important
+  }
+
 body:not(.subscriber) .side span.subscribe-button {
   width: 130px !important;
   height: 20px;
   display: block;
   margin: 16px auto 20px auto;
-  position: relative;
-}
+  position: relative
+  }
+
 body:not(.subscriber) .side span.subscribe-button > a {
   background-image: none !important;
   -moz-border-radius: 0 !important;
@@ -714,22 +953,25 @@ body:not(.subscriber) .side span.subscribe-button > a {
   font-weight: normal;
   background: #455A64;
   color: #fff !important;
-  text-transform: uppercase;
-}
+  text-transform: uppercase
+  }
+
 .side span.subscribe-button > a {
   background-image: none !important;
   -moz-border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   border-radius: 0 !important;
-  border: none;
-}
+  border: none
+  }
+
 body.subscriber .side span.subscribe-button {
   width: 160px !important;
   height: 20px;
   display: block;
   margin: 16px auto 20px auto;
-  position: relative;
-}
+  position: relative
+  }
+
 body.subscriber .side span.subscribe-button > a {
   background-image: none !important;
   -moz-border-radius: 0 !important;
@@ -738,18 +980,19 @@ body.subscriber .side span.subscribe-button > a {
   width: 100%;
   position: absolute;
   padding: 0;
-  line-height: 30px;
-  height: 30px;
-  font-size: 14px;
+  line-height: 26px;
+  height: 26px;
+  font-size: 15px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
   font-weight: normal;
-  background: transparent;
-  color: #444 !important;
-  text-transform: uppercase;
-}
+  background: #455A64;
+  color: #fff !important;
+  text-transform: uppercase
+  }
+
 .side #search input[type=text] {
   width: 100%;
   border: none;
@@ -759,21 +1002,25 @@ body.subscriber .side span.subscribe-button > a {
   color: #aaa;
   outline: none !important;
   margin-top: 0px;
-  margin-bottom: 60px;
-}
+  margin-bottom: 60px
+  }
+
 html:lang(nm) .side #search input[type=text] {
-  background: #666666;
-}
+  background: #666
+  }
+
 body.submit-page .side #search {
   position: absolute;
   left: 10px;
   top: 185px;
   z-index: 999;
-  width: 520px;
-}
+  width: 520px
+  }
+  
 body.moderator.submit-page .side #search {
   top: 240px;
-}
+  }
+
 body.submit-page .side #search:after {
   display: block;
   content: "Please search first! Your question may have been answered.";
@@ -782,8 +1029,9 @@ body.submit-page .side #search:after {
   color: #fff;
   font-size: 16px;
   padding: 5px;
-  margin-top: 10px;
-}
+  margin-top: 10px
+  }
+
 body.submit-page .side #search:before {
   bottom: 28px;
   left: 50%;
@@ -802,32 +1050,42 @@ body.submit-page .side #search:before {
   -o-transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
-  z-index: 999;
+  z-index: 999
+  }
+  
+  element.style {
 }
+
 #search input[type=submit] {
-  display: none;
+      display: none;
 }
+
 body.submit-page .side #search input[type=text] {
-  margin: 0;
-}
-body.submit-page .side .titlebox,
-body.search-page .side .titlebox {
-  margin-top: 60px;
-}
+  margin: 0
+  }
+
+body.submit-page .side .titlebox, body.search-page .side .titlebox {
+  margin-top: 60px
+  }
+
 #searchexpando {
   display: none !important;
   border: none;
   background: #e2e2e2;
-  z-index: 999;
-}
-.side {
+  z-index: 999
+  }
+  
+.side
+{
   box-shadow: -3px -3px 10px 1px #d3d3d3;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 10px;
   margin-top: 0px;
 }
+
 .res-nightmode .side {
+  
   margin-right: 10px;
   width: 300px;
   margin-top: 18px;
@@ -835,31 +1093,40 @@ body.search-page .side .titlebox {
   font-weight: 400;
   font-size: 12px;
   background: transparent;
-  box-shadow: -3px -3px 10px 1px #1f1f1f;
+  box-shadow: -3px -3px 10px 1px #1F1F1F;
   padding-left: 10px;
   padding-right: 5px;
   margin-left: 10px;
   margin-top: 0px;
 }
-.res-nightmode .wiki-page .wiki-page-content .md.wiki > .toc ul,
-.res-nightmode .tabmenu li a,
-.res-nightmode .tabmenu li.selected a,
-.res-nightmode #report form {
+
+.res-nightmode .wiki-page .wiki-page-content .md.wiki>.toc ul, .res-nightmode .tabmenu li a, .res-nightmode .tabmenu li.selected a, .res-nightmode #report form 
+{
   background: transparent;
 }
-.side .usertext h3 {
+
+
+  
+.side .usertext h3
+{
   background-color: #7cbaf6;
   color: #ffffff;
 }
+
 .side a[href$="#nightmodeoff"] {
-  display: none;
-}
+  display: none
+  }
+
 html:lang(nm) .side a[href$="#nightmode"] {
-  display: none;
-}
+  display: none
+  }
+
 html:lang(nm) .side a[href*="#nightmodeoff"] {
-  display: block;
-}
+  display: block
+  }
+
+
+
 /* report button */
 .side a[href*="#report"] {
   display: block;
@@ -871,8 +1138,9 @@ html:lang(nm) .side a[href*="#nightmodeoff"] {
   margin-left: -4px;
   width: 286px;
   opacity: 1;
-  position: relative;
-}
+  position: relative
+  }
+
 .side a[href*="#report"]:before {
   display: block;
   background: #e8898f;
@@ -891,12 +1159,14 @@ html:lang(nm) .side a[href*="#nightmodeoff"] {
   -moz-transition: all ease 0.4s;
   -o-transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
-  transition: all ease 0.4s;
-}
+  transition: all ease 0.4s
+  }
+
 .side a[href*="#report"]:hover:before {
   top: -66px;
-  opacity: 1;
-}
+  opacity: 1
+  }
+
 .side a[href*="#report"]:after {
   top: -32px;
   left: 50%;
@@ -916,12 +1186,14 @@ html:lang(nm) .side a[href*="#nightmodeoff"] {
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
   z-index: 9999;
-  opacity: 0;
-}
+  opacity: 0
+  }
+
 .side a[href*="#report"]:hover:after {
   top: -22px;
-  opacity: 1;
-}
+  opacity: 1
+  }
+
 /* submit button */
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"] {
   display: block;
@@ -956,25 +1228,30 @@ html:lang(nm) .side a[href*="#nightmodeoff"] {
   -moz-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
+  transition-delay: 0.2s
+  }
+
 html:lang(nm) .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"] {
-  opacity: 0.7;
-}
+  opacity: 0.7
+  }
+
 body.search-page .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"] {
-  top: 198px;
-}
+  top: 198px
+  }
+
 body.submit-page .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"] {
-  display: none;
-}
+  display: none
+  }
+
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:hover {
   background: #ff9800;
   color: #ff9800;
   -moz-transition-delay: 0s;
   -o-transition-delay: 0s;
   -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
+  transition-delay: 0s
+  }
+
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:after {
   content: "please search first";
   display: block;
@@ -993,15 +1270,17 @@ body.submit-page .side a[href="/r/explainlikeimfive/submit?selftext=true&title=E
   -o-transition-delay: 0s;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  opacity: 0;
-}
+  opacity: 0
+  } 
+
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:hover:after {
   opacity: 1;
   -moz-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
+  transition-delay: 0.2s
+  }
+
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:before {
   top: -18px;
   left: 50%;
@@ -1023,11 +1302,13 @@ body.submit-page .side a[href="/r/explainlikeimfive/submit?selftext=true&title=E
   -moz-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
+  transition-delay: 0.2s
+  }
+
 body.search-page a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:before {
-  display: none;
-}
+  display: none
+  }
+
 .side a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A"]:hover:before {
   top: -36px;
   border-bottom-color: #ff9800;
@@ -1035,8 +1316,9 @@ body.search-page a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A
   -moz-transition-delay: 0s;
   -o-transition-delay: 0s;
   -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
+  transition-delay: 0s
+  }
+
 /* ideas button */
 .side a[href*="/r/ideasforeli5"] {
   display: block;
@@ -1051,22 +1333,29 @@ body.search-page a[href="/r/explainlikeimfive/submit?selftext=true&title=ELI5%3A
   transition: 0.2s ease-in-out;
   position: relative;
   top: -19px;
-}
-.side a[href*="/r/ideasforeli5"]:hover {
+  }
+
+.side a[href*="/r/ideasforeli5"]:hover
+{
   background-color: #cb67aa;
 }
-.res-nightmode .side a[href*="/ideasforeli5"]:hover {
-  background: #333333;
+
+.res-nightmode .side a[href*="/ideasforeli5"]:hover
+{
+  background: hsl(0, 0%, 20%);
   color: white;
 }
+  
 html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   border: 1px solid #aaa;
   color: #aaa;
-}
+  }
+  
 /**
- *  Rules button
- **/
-.side a[href*="/rules#"] {
+*  Rules button
+**/
+.side a[href*="/rules#"]
+{
   display: inline-block;
   color: #ffffff;
   background-color: #FF9800;
@@ -1081,21 +1370,81 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   padding-left: 2.5%;
   transition: 0.2s ease-in-out;
 }
-.side a[href*="/rules#"]:hover {
+
+.side a[href*="/rules#"]:hover
+{
   background-color: #cb67aa;
 }
-.res-nightmode .side a[href*="/rules#"] {
-  background: #9c6f49;
+
+.side a[href*="/rules/"]
+{
+  color: #78c8ff;
+}
+
+.res-nightmode .side a[href*="/rules#"]
+{
+  background: hsl(27, 36%, 45%);
+  color: white;
+  
+}
+
+.res-nightmode .side a[href*="/rules#"]:hover
+{
+  background: hsl(0, 0%, 20%);
   color: white;
 }
-.res-nightmode .side a[href*="/rules#"]:hover {
-  background: #333333;
+
+/* */
+/* New "Detailed Rules" Button */
+/* */
+.side a[href*="/detailed_rules"]
+{
+  display: inline-block;
+  color: #ffffff;
+  background: #FF9800;
+  width: 43.5%;
+  height: 26px;
+  /*right: -3px;*/
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+  /*margin-left: 5px;*/
+  padding-top: 8px;
+  /*padding-left: 2.5%;*/
+  padding-right: 2.5%;
+  transition: 0.2s ease-in-out;
+}
+
+.side a[href*="/detailed_rules"]:hover
+{
+  background-color: #cb67aa;
+}
+
+.side a[href*="/detailed_rules"]
+{
+  color: #ffffff;
+}
+
+.res-nightmode .side a[href*="/detailed_rules"]
+{
+  background: hsl(27, 36%, 45%);
+  color: white;
+  
+}
+
+.res-nightmode .side a[href*="/detailed_rules"]:hover
+{
+  background: hsl(0, 0%, 20%);
   color: white;
 }
+
+
 /**
- *  FAQ button
- **/
-.side a[href*="/faq"] {
+*  FAQ button
+**/
+.side a[href*="/faq"]
+{
   display: inline-block;
   color: #ffffff;
   background-color: #FF9800;
@@ -1112,23 +1461,31 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   padding-right: 2.5%;
   transition: 0.2s ease-in-out;
 }
-.side a[href*="/faq"]:hover {
+
+.side a[href*="/faq"]:hover
+{
   background-color: #cb67aa;
 }
-.res-nightmode .side a[href*="/faq"] {
-  background: #9c6f49;
+
+.res-nightmode .side a[href*="/faq"]
+{
+  background: hsl(27, 36%, 45%);
   color: white;
 }
-.res-nightmode .side a[href*="/faq"]:hover {
-  background: #333333;
+
+.res-nightmode .side a[href*="/faq"]:hover
+{
+  background: hsl(0, 0%, 20%);
   color: white;
 }
+
 /**
- *  Category filter buttons
- **/
-.side a[href*="#eg"] {
+*  Category filter buttons
+**/
+.side a[href*="#eg"]
+{
   display: inline-block;
-  background: #a1887f url(%%engineering%%) 8px 6px no-repeat;
+  background: #A1887F url(%%engineering%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1148,9 +1505,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#ch"] {
+
+.side a[href*="#ch"]
+{
   display: inline-block;
-  background: #f06292 url(%%erlenmeyer%%) 8px 6px no-repeat;
+  background: #F06292 url(%%erlenmeyer%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1170,9 +1529,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#ph"] {
+
+.side a[href*="#ph"]
+{
   display: inline-block;
-  background: #4fc3f7 url(%%physics%%) 8px 6px no-repeat;
+  background: #4FC3F7 url(%%physics%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1192,9 +1553,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#cu"] {
+
+.side a[href*="#cu"]
+{
   display: inline-block;
-  background: #7986cb url(%%culture%%) 8px 6px no-repeat;
+  background: #7986CB url(%%culture%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1214,9 +1577,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#bo"] {
+
+.side a[href*="#bo"]
+{
   display: inline-block;
-  background: #4db6ac url(%%biology2%%) 8px 6px no-repeat;
+  background: #4DB6AC url(%%biology2%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1236,9 +1601,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#ma"] {
+
+.side a[href*="#ma"]
+{
   display: inline-block;
-  background: #81c784 url(%%math%%) 8px 6px no-repeat;
+  background: #81C784 url(%%math%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1258,9 +1625,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#ec"] {
+
+.side a[href*="#ec"]
+{
   display: inline-block;
-  background: #9575cd url(%%econ%%) 8px 6px no-repeat;
+  background: #9575CD url(%%econ%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1280,9 +1649,11 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#te"] {
+
+.side a[href*="#te"]
+{
   display: inline-block;
-  background: #78909c url(%%tech%%) 8px 6px no-repeat;
+  background: #78909C url(%%tech%%) 8px 6px no-repeat;
   width: 45%;
   height: 24px;
   font-weight: normal;
@@ -1302,7 +1673,9 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   position: relative;
   top: -50px;
 }
-.side a[href*="#ot"] {
+
+.side a[href*="#ot"]
+{
   display: inline-block;
   background: #9E9E9E;
   width: 95%;
@@ -1324,81 +1697,126 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   top: -50px;
   transition: 0.2s ease-in-out;
 }
-.side a[href*="#ot"]:hover {
+
+.side a[href*="#ot"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#bo"]:hover {
+
+.side a[href*="#bo"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#ch"]:hover {
+
+.side a[href*="#ch"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#ph"]:hover {
+
+.side a[href*="#ph"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#cu"]:hover {
+
+.side a[href*="#cu"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#ec"]:hover {
+
+.side a[href*="#ec"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#ma"]:hover {
+
+.side a[href*="#ma"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#eg"]:hover {
+
+.side a[href*="#eg"]:hover
+{
   background-color: #ff9800;
 }
-.side a[href*="#te"]:hover {
+
+.side a[href*="#te"]:hover
+{
   background-color: #ff9800;
 }
-.res-nightmode .side a[href*="#ot"] {
+
+.res-nightmode .side a[href*="#ot"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#ch"] {
+
+.res-nightmode .side a[href*="#ch"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#ph"] {
+
+.res-nightmode .side a[href*="#ph"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#ch"] {
+
+.res-nightmode .side a[href*="#ch"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#eg"] {
+
+.res-nightmode .side a[href*="#eg"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#ec"] {
+
+.res-nightmode .side a[href*="#ec"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#ma"] {
+
+.res-nightmode .side a[href*="#ma"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#cu"] {
+
+.res-nightmode .side a[href*="#cu"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#bo"] {
+
+.res-nightmode .side a[href*="#bo"]
+{
   color: #262626;
 }
-.res-nightmode .side a[href*="#reset"] {
+
+.res-nightmode .side a[href*="#reset"]
+{
   color: #262626 !important;
 }
-.res-nightmode .side a[href*="#te"] {
+
+.res-nightmode .side a[href*="#te"]
+{
   color: #262626;
 }
-.side a[href*="#sc"]:hover {
+
+.side a[href*="#sc"]:hover
+{
   background-color: #d5aa2a;
 }
+
 /* Misc nightmode fixes */
+
 .res-nightmode .link {
   margin-right: 325px;
   margin-left: 0;
   padding: 10px 8px 6px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   font-weight: 400;
   margin-bottom: 0;
   position: relative;
   padding-left: 5px;
   border-bottom: 1px solid #555555;
 }
+
 .res-nightmode #header .tabmenu {
   position: absolute;
   width: 100%;
@@ -1408,10 +1826,13 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   background: #455A64;
   color: #ffffff;
 }
+
+
 /**
- *  Reset filter button
- **/
-.side a[href*="#reset"] {
+*  Reset filter button
+**/
+.side a[href*="#reset"]
+{
   display: inline-block;
   background: #009688;
   width: 95%;
@@ -1433,38 +1854,47 @@ html:lang(nm) .side a[href*="/r/ideasforeli5"] {
   top: -50px;
   transition: 0.2s ease-in-out;
 }
-.side a[href*="#reset"]:hover {
+
+.side a[href*="#reset"]:hover
+{
   background-color: #ff9800;
 }
+
 .sidebox.submit .morelink {
-  display: none;
-}
+  display: none
+  }
+
 .sidebox.submit .morelink:hover {
   background-image: none;
   background: #cee3f8;
-  border: none;
-}
+  border: none
+  }
+
 .nub {
-  display: none !important;
-}
+  display: none !important
+  }
+
 hr {
   width: 100%;
   border: none;
   display: block;
   margin: 20px 0;
   height: 1px;
-  background: #cccccc;
-}
+  background: #ccc
+  }
+
 .side hr {
   margin: 5px 0 0;
   height: 18px;
   background: #f6f6f6;
   padding: 0 10px;
-  margin-left: -10px;
-}
+  margin-left: -10px
+  }
+
 html:lang(nm) .side hr {
-  background: #555555;
-}
+  background: #555
+  }
+
 .side .usertext h3 {
   background: #455A64;
   margin-top: 0px;
@@ -1484,13 +1914,16 @@ html:lang(nm) .side hr {
   padding-bottom: 3px;
   top: -30px;
   position: relative;
-}
+  }
+
 html:lang(nm) .side .usertext h3 {
   background: #5ea6ed;
   color: #ffffff !important;
   margin-top: 0;
-}
-.side .usertext ul {
+  }
+  
+.side .usertext ul
+{
   margin-top: 0;
   background: #526C79;
   padding-right: 10px;
@@ -1501,7 +1934,9 @@ html:lang(nm) .side .usertext h3 {
   width: 81.7%;
   text-indent: -5px;
 }
-.res-nightmode .side .usertext ul {
+
+.res-nightmode .side .usertext ul
+{
   margin-top: 0;
   background: #526C79 !important;
   padding-right: 10px;
@@ -1511,7 +1946,9 @@ html:lang(nm) .side .usertext h3 {
   position: relative;
   width: 81%;
 }
-.res-nightmode .side .usertext h3 + ul li {
+
+.res-nightmode .side .usertext h3+ul li
+{
   text-align: left;
   color: #fff !important;
   width: 244px;
@@ -1521,21 +1958,25 @@ html:lang(nm) .side .usertext h3 {
   padding-top: 5px;
   padding-right: 5px;
   left: -6px;
+  
 }
-.res-nightmode #header,
-.res-nightmode .liveupdate-home .content {
+
+.res-nightmode #header, .res-nightmode .liveupdate-home .content {
   background-color: #333;
 }
+
 .res-nightmode #search input[type="text"] {
   background: #3E3E3E !important;
 }
+
 .side .usertext h3 + ul {
   margin-top: 0;
   list-style: none
-	background: #75b3f0;
+  background: #75b3f0;
   color: #ffffff;
   top: -30px;
-}
+  }
+
 .side .usertext h3 + ul li {
   text-align: left;
   color: #ffffff;
@@ -1543,73 +1984,89 @@ html:lang(nm) .side .usertext h3 {
   margin-bottom: 10px;
   position: relative;
   margin-top: 0;
-  padding-top: 5px;
+  padding-top:5px;
   padding-right: 5px;
   left: -6px;
-}
+  }
+
 .side a[href="#yes"] {
   color: #7dc66b;
   pointer-events: none;
   font-size: 15px;
   width: 16px;
-  display: inline-block;
-}
+  display: inline-block
+  }
+
 .side a[href="#no"] {
   color: #ff7b7b;
   pointer-events: none;
   font-size: 15px;
   width: 16px;
-  display: inline-block;
-}
+  display: inline-block
+  }
+
 div.sidebox.create {
-  display: none;
-}
-.titlebox {
+  display: none
+  }
+
+.titlebox
+{
   top: -20px;
   z-index: 999;
 }
+
 .titlebox .bottom {
   border-top: none;
-  padding-top: 10px;
-}
+  padding-top: 10px
+  }
+
 .titlebox .bottom > .age {
-  font-size: 10px;
-}
+  font-size: 10px
+  }
+  
 /**
- *  sidebar nightmode
- **/
-.res-nightmode .side .titlebox .md {
-  background: #262626;
+*  sidebar nightmode
+**/
+.res-nightmode .side .titlebox .md
+{
+  background: hsl(0,0%,15%);
 }
-.res-nightmode .side .titlebox hr,
-.res-nightmode .side .titlebox .md hr {
-  background-color: #262626;
-  border-color: #262626;
+
+.res-nightmode .side .titlebox hr, .res-nightmode .side .titlebox .md hr
+{
+  background-color: hsl(0, 0%, 15%);
+  border-color: hsl(0, 0%, 15%);
 }
+
 /* FLAIR SELECTOR */
 .flairselector h2 {
-  background: #b2b2b2;
-  color: #bbbbbb;
+background:#b2b2b2;
+color:#bbb
 }
 .flairselection .linkflairlabel {
-  left: 10%;
-  position: relative;
-  top: 0;
+left:10%;
+position:relative;
+top:0
+}
+li.flairsample-left linkflairlabel {
 }
 li.flairsample-left .linkflairlabel {
-  position: relative;
-  left: 0!important;
-  top: 0;
-  margin-left: -15px !important;
-  pointer-events: none;
+position:relative;
+left:0!important;
+top:0;
+margin-left:-15px!important;
+pointer-events:none
 }
-.res-flairSearch {
+
+.res-flairSearch
+{
   cursor: pointer;
   position: relative;
 }
+
 /**
- *  Submission flairs
- **/
+*  Submission flairs
+**/
 .linkflair .linkflairlabel {
   display: inline-block;
   margin-right: .5em;
@@ -1627,161 +2084,207 @@ li.flairsample-left .linkflairlabel {
   line-height: 26px;
   cursor: pointer;
 }
+
 .flairselector form {
-  padding: 8px 0 1px;
-  margin-top: 10px;
-  border-color: #dddddd;
+padding:8px 0 1px;
+margin-top:10px;
+border-color:#DDD
 }
-.flairselector li {
-  padding-bottom: 10px;
+
+.flairselector li
+{
+padding-bottom: 10px;
 }
+
 .flairselector li:hover {
-  background-color: #F5F5F5;
-  border: none;
+background-color:#F5F5F5;
+border:none
 }
 .flairselector .flairremove {
-  margin: 5px 0;
-  color: #888888;
+margin:5px 0;
+color:#888
 }
 html:lang(nm) .linkflairlabel {
-  opacity: 0.7;
+opacity:0.7
 }
+
 .linkflairlabel[title*="explained"],
-.linkflairlabel[title*="Explained"] {
-  background: #b3d686 url(%%tick%%) 5px 6px no-repeat;
+.linkflairlabel[title*="Explained"]{
+  background: #b3d686  url(%%tick%%) 5px 6px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 12px;
-}
+  background-size: 12px
+  }
+
 .linkflairlabel[title*="Official"],
 .linkflairlabel[title*="Mod"],
-.linkflairlabel[title*="Featured"] {
+.linkflairlabel[title*="Featured"]{
   background: #62b46d url(%%shield%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
+  background-size: 16px
+  }
+
 .linkflairlabel[title*="Removed"] {
-  background: #cccccc url(%%removed%%) 5px 6px no-repeat;
+  background: #ccc url(%%removed%%) 5px 6px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 12px;
-}
+  background-size: 12px
+  }
+
 .linkflairlabel[title*="Locked"] {
   background: #e57373 url(%%lock%%) 5px 6px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 12px;
-}
-.linkflairlabel[title*="Recent event"] {
-  background: #90a4ae url(%%event%%) 7px 5px no-repeat;
+  background-size: 12px
+  }
+  
+.linkflairlabel[title*="Recent event"]{
+  background: #90A4AE url(%%event%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Repost"] {
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Repost"]{
   background: #b46662 url(%%repost%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
+  background-size: 16px
+  }
 /**
- *  test for category flair
- **/
-.linkflairlabel[title*="Engineering"] {
-  background: #a1887f url(%%engineering%%) 7px 5px no-repeat;
+*  test for category flair
+**/
+  
+.linkflairlabel[title*="Engineering"]{
+  background: #A1887F url(%%engineering%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Culture"] {
-  background: #7986cb url(%%culture%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Culture"]{
+  background: #7986CB url(%%culture%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Physics"] {
-  background: #4fc3f7 url(%%physics%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Physics"]{
+  background: #4FC3F7 url(%%physics%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Chemistry"] {
-  background: #f06292 url(%%erlenmeyer%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Chemistry"]{
+  background: #F06292 url(%%erlenmeyer%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Biology"] {
-  background: #4db6ac url(%%biology2%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Biology"]{
+  background: #4DB6AC url(%%biology2%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Mathematics"] {
-  background: #81c784 url(%%math%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Mathematics"]{
+  background: #81C784 url(%%math%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Economics"] {
-  background: #9575cd url(%%econ%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Economics"]{
+  background: #9575CD url(%%econ%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Technology"] {
-  background: #78909c url(%%tech%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Technology"]{
+  background: #78909C url(%%tech%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.linkflairlabel[title*="Other"] {
-  background: #9e9e9e url(%%misc%%) 7px 5px no-repeat;
+  background-size: 16px
+  }
+
+.linkflairlabel[title*="Meta"]{
+  background: #070091 url(%%metatag2%%) 7px 5px no-repeat;
   color: #fff;
   -webkit-background-size: 12px;
-  background-size: 16px;
-}
-.res-nightmode .linkflairlabel[title*="Engineering"] {
+  background-size: 16px
+  }
+  
+.linkflairlabel[title*="Other"]{
+  background: #9E9E9E url(%%misc%%) 7px 5px no-repeat;
+  color: #fff;
+  -webkit-background-size: 12px;
+  background-size: 16px
+  }
+
+.res-nightmode .linkflairlabel[title*="Engineering"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Economics"] {
+
+.res-nightmode .linkflairlabel[title*="Economics"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Culture"] {
+
+.res-nightmode .linkflairlabel[title*="Culture"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Biology"] {
+
+.res-nightmode .linkflairlabel[title*="Biology"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Mathematics"] {
+
+.res-nightmode .linkflairlabel[title*="Mathematics"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Chemistry"] {
+
+.res-nightmode .linkflairlabel[title*="Chemistry"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Physics"] {
+
+.res-nightmode .linkflairlabel[title*="Physics"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Other"] {
+
+.res-nightmode .linkflairlabel[title*="Meta"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Repost"] {
+
+.res-nightmode .linkflairlabel[title*="Other"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Locked"] {
+
+.res-nightmode .linkflairlabel[title*="Repost"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Official"] {
+
+.res-nightmode .linkflairlabel[title*="Locked"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Recent event"] {
+
+.res-nightmode .linkflairlabel[title*="Official"]{
   color: #262626;
 }
-.res-nightmode .linkflairlabel[title*="Technology"] {
+
+.res-nightmode .linkflairlabel[title*="Recent event"]{
   color: #262626;
 }
+
+.res-nightmode .linkflairlabel[title*="Technology"]{
+  color: #262626;
+}
+  
+
 /* test for user flair */
+
 .flair {
   background-color: #74ade5;
   padding: 1px;
@@ -1790,7 +2293,8 @@ html:lang(nm) .linkflairlabel {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-variant: small-caps;
 }
-.flair:hover:after {
+
+.flair:hover:after { 
   content: "number of high quality explanations this user has submitted";
   z-index: 9999;
   background-color: #e8898f;
@@ -1805,68 +2309,96 @@ html:lang(nm) .linkflairlabel {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-variant: small-caps;
 }
+
 /**
- *  Flair filtering
- **/
-html:lang(eg) .link:not(.linkflair-Engineering) {
+*  Flair filtering
+**/
+html:lang(eg) .link:not(.linkflair-Engineering)
+{
   display: none;
 }
-html:lang(cu) .link:not(.linkflair-Culture) {
+
+html:lang(cu) .link:not(.linkflair-Culture)
+{
   display: none;
 }
-html:lang(ph) .link:not(.linkflair-Physics) {
+
+html:lang(ph) .link:not(.linkflair-Physics)
+{
   display: none;
 }
-html:lang(bo) .link:not(.linkflair-Biology) {
+
+html:lang(bo) .link:not(.linkflair-Biology)
+{
   display: none;
 }
-html:lang(ch) .link:not(.linkflair-Chemistry) {
+
+
+html:lang(ch) .link:not(.linkflair-Chemistry)
+{
   display: none;
 }
-html:lang(ma) .link:not(.linkflair-Mathematics) {
+
+html:lang(ma) .link:not(.linkflair-Mathematics)
+{
   display: none;
 }
-html:lang(ec) .link:not(.linkflair-Economics) {
+
+
+html:lang(ec) .link:not(.linkflair-Economics)
+{
   display: none;
 }
-html:lang(ot) .link:not(.linkflair-Other) {
+
+html:lang(ot) .link:not(.linkflair-Other)
+{
   display: none;
 }
-html:lang(te) .link:not(.linkflair-Technology) {
+
+html:lang(te) .link:not(.linkflair-Technology)
+{
   display: none;
 }
+
 /* COMMENTS */
 textarea {
   background: #fafafa;
   border: 1px solid #eaeaea;
   color: #555;
-  outline: none !important;
-}
+  outline: none !important
+  }
+
 /*Comment box backgrounds */
 .commentarea .usertext-edit textarea {
   background-image: url(%%top-comment-background%%);
   background-repeat: no-repeat;
 }
-.commentarea .usertext-edit textarea:focus {
-  background-image: none;
-}
+  .commentarea .usertext-edit textarea:focus {
+      background-image: none;
+  }
+  
 .commentarea .sitetable .thing .child textarea {
   background-image: url(%%non-top-comment-background%%);
   background-repeat: no-repeat;
 }
-.commentarea .sitetable .thing .child textarea:focus {
-  background-image: none;
-}
+  .commentarea .sitetable .thing .child textarea:focus {
+      background-image: none;
+  }
+
+
 html:lang(nm) textarea {
   background: #888;
-  border: 1px solid #888888;
-}
+  border: 1px solid #888
+  }
+
 .commentarea > .usertext > .usertext-edit > .bottom-area {
-  width: 506px;
-}
+  width: 506px
+  }
+
 .res .commentarea > .usertext > .usertext-edit > .bottom-area {
-  width: 500px;
-}
+  width: 500px
+  }
+
 .commentarea > .usertext > .usertext-edit > .bottom-area:before {
   content: "Top level comments must be an explanation or on-topic question.";
   padding: 7px 0;
@@ -1875,51 +2407,60 @@ html:lang(nm) textarea {
   color: #9a9a9a;
   font-size: 11px;
   font-weight: bold;
-  text-align: center;
-}
+  text-align: center
+  }
+
 html:lang(nm) .commentarea > .usertext > .usertext-edit > .bottom-area:before {
   background: #777;
-  color: #555555;
-}
+  color: #555
+  }
+
 /* experimental Snewzie - https://www.reddit.com/r/csshelp/comments/yvvw7/increasing_the_height_of_comment_boxes_self_post/? */
 .usertext-edit textarea {
-  /*    width: 750px; */
-
+/*    width: 750px; */
   height: 250px;
 }
+
 .comment .midcol {
-  width: 30px;
+  width: 30px
 }
+
 .md blockquote {
   border-left: solid 3px #aaa;
   padding: 0.2em 0.5em;
   background: #eaeaea;
   color: #262626;
-  margin: 5px;
-}
+  margin: 5px
+  }
+
 .comment .md blockquote {
   border-left: solid 3px #ccc;
   background: #DFDFDF;
   color: #262626;
-}
+  }
+  
 .res-nightmode .md blockquote {
-  color: #a0a0a0 !important;
+  color: rgb(160,160,160) !important;
   background: #262626;
-  border-left-color: #646464;
+  border-left-color: rgb(100, 100, 100);
 }
+
 .res-nightmode .action-reason {
   font-size: 12px;
   background-color: #3C1212 !important;
   padding: 5px;
 }
+
 html:lang(nm) .md blockquote {
   border-left: solid 3px #5a5a5a;
   background: #666;
-  color: #5a5a5a !important;
-}
+  color: #5a5a5a !important
+  }
+
 ul.report-reasons {
-  display: block;
-}
+  display: block
+  }
+  
 .res-nightmode ul.report-reasons {
   width: 80%;
   background-color: #f6e69f;
@@ -1927,24 +2468,28 @@ ul.report-reasons {
   display: none;
   color: #262626;
 }
+
 html:lang(nm) .usertext-body p {
-  color: #aaaaaa;
-}
-.comment .child,
-.comment .showreplies {
-  border-left: 1px solid #b2b2b2;
-}
-html:lang(nm) .comment .child,
-.comment .showreplies {
-  border-left: 1px solid #666666;
-}
+  color: #aaa
+  }
+
+.comment .child, .comment .showreplies {
+  border-left: 1px solid #b2b2b2
+  }
+
+html:lang(nm) .comment .child, .comment .showreplies {
+  border-left: 1px solid #666
+  }
+
 .comment .usertext[id*="commentreply"] {
-  margin-left: 20px;
-}
+  margin-left: 20px
+  }
+
 body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"] {
-  position: relative;
-}
-body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"]:before {
+  position: relative
+  }
+
+body.post-submitter  body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"]:before {
   display: block;
   background: #b3d686;
   color: #b2b2b2;
@@ -1965,12 +2510,14 @@ body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(th
   -moz-transition: all ease 0.4s;
   -o-transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
-  transition: all ease 0.4s;
-}
+  transition: all ease 0.4s
+  }
+
 body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"]:hover:before {
   left: -395px;
-  opacity: 1;
-}
+  opacity: 1
+  }
+
 body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"]:after {
   bottom: 0;
   left: -19px;
@@ -1989,28 +2536,34 @@ body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(th
   -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
   z-index: 9999;
-  opacity: 0;
-}
+  opacity: 0
+  }
+
 body.post-submitter body:not([class*="linkflair"]) .comment a[onclick$="reply(this)"]:hover:after {
   left: -9px;
-  opacity: 1;
-}
+  opacity: 1
+  }
+
 /* SEARCH PAGE */
 div.searchpane.raisedbox {
   margin-right: 320px;
   margin-left: 7px;
-  margin-top: 20px;
-}
+  margin-top: 20px
+  }
+
 .search-summary {
-  margin-right: 36px;
-}
+  margin-right: 36px
+  }
+
 body.search-page .side .titlebox {
-  margin-top: 90px;
-}
+  margin-top: 90px
+  }
+
 .searchpane {
   background-color: #b2b2b2;
-  border-color: #eaeaea;
-}
+  border-color: #eaeaea
+  }
+
 .searchfacets {
   margin-right: 320px;
   margin-left: 7px;
@@ -2018,12 +2571,14 @@ body.search-page .side .titlebox {
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #fafafa;
-  border-color: #eaeaea;
-}
+  border-color: #eaeaea
+  }
+
 /* SUBMIT PAGE */
 #reddit-field {
-  display: none;
-}
+  display: none
+  }
+
 .roundfield {
   width: 500px;
   background-color: #f2f2f2;
@@ -2032,20 +2587,23 @@ body.search-page .side .titlebox {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0
-	color: white !important;
+  color: white !important;
   box-shadow: 0px 1px 3px 0.5px #ccc;
-}
+  }
+
 html:lang(nm) .roundfield {
-  background-color: #666666;
-}
+  background-color: #666
+  }
+
 #newlink .infobar {
   background-color: transparent;
   padding: 0;
   margin: 0;
   font-size: 0;
   border: 0;
-  text-indent: -10000px;
-}
+  text-indent: -10000px
+  }
+
 #newlink .infobar:after {
   text-indent: 0;
   background-color: #2177b4;
@@ -2053,25 +2611,29 @@ html:lang(nm) .roundfield {
   padding: 10px;
   font-size: 12pt;
   display: block;
-  margin-top: 5px;
-}
+  margin-top: 5px
+  }
+
 .content > .infobar:first-child {
-  margin-top: 20px;
-}
+  margin-top: 20px
+  }
+
 .content > .infobar {
   margin-left: 8px;
   position: relative;
   /*top: 65px;*/
-
   margin-right: 320px;
-  margin-top: 5px;
-}
+  margin-top: 5px
+  }
+
 #title-field {
-  margin-top: 70px;
-}
+  margin-top: 70px
+  }
+
 .submit-page textarea {
-  background: #fafafa;
-}
+  background: #fafafa
+  }
+
 /* random tips/facts */
 .side .usertext a[href^="/tip"]:before {
   font-size: 11px;
@@ -2082,158 +2644,195 @@ html:lang(nm) .roundfield {
   border: none;
   color: #777;
   width: 280px;
-  font-weight: bold;
-}
+  font-weight: bold
+  }
+  
 html:lang(nm) .side .usertext a[href^="/tip"]:before {
   color: #aaa;
-}
+  }
+
 .side .usertext[id$="a"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Check /r/explainlikeimfive/new! You never know who you might help.";
-}
+  content: "ELI5 Tip: Check /r/explainlikeimfive/new! You never know who you might help."
+  }
+
 .side .usertext[id$="b"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: If your question has been explained, be sure to tag it as such! Message the mods if you are experiencing difficulty with this.";
-}
+  content: "ELI5 Tip: If your question has been explained, be sure to tag it as such! Message the mods if you are experiencing difficulty with this."
+  }
+
 .side .usertext[id$="c"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Search about your topic in the sidebar before submitting. The mods may remove common topics if you have not searched first.";
-}
+  content: "ELI5 Tip: Search about your topic in the sidebar before submitting. The mods may remove common topics if you have not searched first."
+  }
+
 .side .usertext[id$="d"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: All top-level comments should offer an explanation or ask a related question.";
-}
+  content: "ELI5 Tip: All top-level comments should offer an explanation or ask a related question."
+  }
+
 .side .usertext[id$="e"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Click the new tab to be the first to offer an explanation.";
-}
+  content: "ELI5 Tip: Click the new tab to be the first to offer an explanation."
+  }
+
 .side .usertext[id$="f"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Try /r/explainlikeimcalvin for literal five-year-old level Q&A!";
-}
+  content: "ELI5 Tip: Try /r/explainlikeimcalvin for literal five-year-old level Q&A!"
+  }
+
 .side .usertext[id$="g"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Feeling open-minded? Try /r/changemyview!";
-}
+  content: "ELI5 Tip: Feeling open-minded? Try /r/changemyview!"
+  }
+
 .side .usertext[id$="h"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Having trouble? Message the ELI5 moderators for rapid service. (Link in sidebar.)";
-}
+  content: "ELI5 Tip: Having trouble? Message the ELI5 moderators for rapid service. (Link in sidebar.)"
+  }
+
 .side .usertext[id$="i"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Wondering about any part of the ELI5 CSS? Message /u/anonymous123421 or the modmail.";
-}
+  content: "ELI5 Tip: Wondering about any part of the ELI5 CSS? Message /u/anonymous123421 or the modmail."
+  }
+
 .side .usertext[id$="j"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Check out the full rules at bit.ly/eli5rules.";
-}
+  content: "ELI5 Tip: Check out the full rules at bit.ly/eli5rules."
+  }
+
 .side .usertext[id$="k"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Have an idea for improving ELI5? Post in /r/IdeasForELI5!";
-}
+  content: "ELI5 Tip: Have an idea for improving ELI5? Post in /r/IdeasForELI5!"
+  }
+
 .side .usertext[id$="l"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: See someone breaking the rules? Message the mods! (Link in sidebar.)";
-}
+  content: "ELI5 Tip: See someone breaking the rules? Message the mods! (Link in sidebar.)"
+  }
+
 .side .usertext[id$="m"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Change the ELI5 theme with the sidebar color buttons!";
-}
+  content: "ELI5 Tip: Change the ELI5 theme with the sidebar color buttons!"
+  }
+
 .side .usertext[id$="n"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Wondering if your post belongs in ELI5? Message the mods using the sidebar link!";
-}
+  content: "ELI5 Tip: Wondering if your post belongs in ELI5? Message the mods using the sidebar link!"
+  }
+
 .side .usertext[id$="o"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Discover explained or unexplained questions by clicking the button in the sidebar.";
-}
+  content: "ELI5 Tip: Discover explained or unexplained questions by clicking the button in the sidebar."
+  }
+
 .side .usertext[id$="p"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Always search before submitting!";
-}
+  content: "ELI5 Tip: Always search before submitting!"
+  }
+
 .side .usertext[id$="q"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Do not forget to include the ELI5: tag at the beginning of your submission!";
-}
+  content: "ELI5 Tip: Do not forget to include the ELI5: tag at the beginning of your submission!"
+  }
+
 .side .usertext[id$="r"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: ELI5 was created on Thursday, July 28, 2011 at 11:21:40 Eastern Standard time.";
-}
+  content: "ELI5 Tip: ELI5 was created on Thursday, July 28, 2011 at 11:21:40 Eastern Standard time."
+  }
+
 .side .usertext[id$="s"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: ELI5 was the fastest growing subreddit at its start, hitting 10,000 subscribers in just 5 hours. ";
-}
+  content: "ELI5 Tip: ELI5 was the fastest growing subreddit at its start, hitting 10,000 subscribers in just 5 hours. "
+  }
+
 .side .usertext[id$="t"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: ELI5 generally gains more subscribers per day than any other subreddit, averaging just under 10,000 new users per day.";
-}
+  content: "ELI5 Tip: ELI5 generally gains more subscribers per day than any other subreddit, averaging just under 10,000 new users per day."
+  }
+
 .side .usertext[id$="u"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: These tips and trivia rotate every 10-15 minutes. There are 36 in total.";
-}
+  content: "ELI5 Tip: These tips and trivia rotate every 10-15 minutes. There are 36 in total."
+  }
+
 .side .usertext[id$="v"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Have a technology issue? Try /r/techsupport.";
-}
+  content: "ELI5 Tip: Have a technology issue? Try /r/techsupport."
+  }
+
 .side .usertext[id$="w"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Want to survey the reddit community? Try /r/askreddit.";
-}
+  content: "ELI5 Tip: Want to survey the reddit community? Try /r/askreddit."
+  }
+
 .side .usertext[id$="x"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Need help with a homework problem that does not require background information to be explained? Try /r/homeworkhelp.";
-}
+  content: "ELI5 Tip: Need help with a homework problem that does not require background information to be explained? Try /r/homeworkhelp."
+  }
+
 .side .usertext[id$="y"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Need a quick and simple answer to a question? Try /r/answers.";
-}
+  content: "ELI5 Tip: Need a quick and simple answer to a question? Try /r/answers."
+  }
+
 .side .usertext[id$="z"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Responses in ELI5 are not guaranteed to be correct, so be sure to consider multiple perspectives.";
-}
+  content: "ELI5 Tip: Responses in ELI5 are not guaranteed to be correct, so be sure to consider multiple perspectives."
+  }
+
 .side .usertext[id$="0"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: ELI5 is for layman-friendly explanations to more complex topics.";
-}
+  content: "ELI5 Tip: ELI5 is for layman-friendly explanations to more complex topics."
+  }
+
 .side .usertext[id$="1"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Every ELI5 mod is a volunteer. We are here to help if you have any subreddit-related questions, so message us with any you might have.";
-}
+  content: "ELI5 Tip: Every ELI5 mod is a volunteer. We are here to help if you have any subreddit-related questions, so message us with any you might have."
+  }
+
 .side .usertext[id$="2"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Remember the Walter Rule. If you are stating an opinion and asking Am I Wrong, it belongs in Nam, not here.";
-}
+  content: "ELI5 Tip: Remember the Walter Rule. If you are stating an opinion and asking Am I Wrong, it belongs in Nam, not here."
+  }
+
 .side .usertext[id$="3"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Bigotry, soapboxing, and targeted offensive language are not allowed in ELI5 because everyone (except bigots) should feel comfortable here.";
-}
+  content: "ELI5 Tip: Bigotry, soapboxing, and targeted offensive language are not allowed in ELI5 because everyone (except bigots) should feel comfortable here."
+  }
+
 .side .usertext[id$="4"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Exemplary questions often ask why and how, although this is not required by any means.";
-}
+  content: "ELI5 Tip: Exemplary questions often ask why and how, although this is not required by any means."
+  }
+
 .side .usertext[id$="5"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: Questions about very general topics are not as good for the OP or the other users as more specific and focused questions.";
-}
+  content: "ELI5 Tip: Questions about very general topics are not as good for the OP or the other users as more specific and focused questions."
+  }
+
 .side .usertext[id$="6"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: If your question has been explained, be sure to tag it as such! Message the mods if you are experiencing difficulty with this.";
-}
+  content: "ELI5 Tip: If your question has been explained, be sure to tag it as such! Message the mods if you are experiencing difficulty with this."
+  }
+
 .side .usertext[id$="7"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: ELI5 is an archive of every post and explanation ever submitted here, so use the search bar to your advantage!";
-}
+  content: "ELI5 Tip: ELI5 is an archive of every post and explanation ever submitted here, so use the search bar to your advantage!"
+  }
+
 .side .usertext[id$="8"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: The rising tab has been reworked and is now a pretty good way to see which ELI5 questions will make the front page next.";
-}
+  content: "ELI5 Tip: The rising tab has been reworked and is now a pretty good way to see which ELI5 questions will make the front page next."
+  }
+
 .side .usertext[id$="9"] a[href*="/tip"]::before {
-  content: "ELI5 Tip: If you have a suggestion for ways we can improve ELI5, feel free to message the mods!";
-}
+  content: "ELI5 Tip: If you have a suggestion for ways we can improve ELI5, feel free to message the mods!"
+  }
+
 /* RES */
-.RESshortcutside,
-.RESshortcutside.remove,
-.RESDashboardToggle,
-.RESDashboardToggle.remove {
+.RESshortcutside, .RESshortcutside.remove, .RESDashboardToggle, .RESDashboardToggle.remove {
   background: transparent !important;
   color: lightgray !important;
   border: 0 !important;
   position: relative;
   left: 65px;
-  top: -10px;
-}
-.res #RESShortcutsEditContainer,
-.res #RESShortcutsSort,
-.res #RESShortcutsRight,
-.res #RESShortcutsAdd,
-.res #RESShortcutsTrash,
-.res #RESShortcutsLeft {
-  background: transparent !important;
-}
+  top: -10px
+  }
+
+.res #RESShortcutsEditContainer, .res #RESShortcutsSort, .res #RESShortcutsRight, .res #RESShortcutsAdd, .res #RESShortcutsTrash, .res #RESShortcutsLeft {
+  background: transparent !important
+  }
+
 .res .livePreview {
-  background: #ffffff;
-}
+  background: #fff
+  }
+
 .res-commentBoxes .comment {
-  overflow: visible !important;
-}
+  overflow: visible !important
+  }
+
 html:lang(nm) body.res .comment {
-  border: none !important;
-}
+  border: none !important
+  }
+
 /*html:lang(nm) body.res div.commentarea div.thing.comment[class*="id-t1"] {*/
 /*    background: #555 !important;*/
 /*}*/
 .wiki-page .wiki-page-content {
-  margin-right: 320px !important;
-}
+  margin-right: 320px !important
+  }
+
 .link.last-clicked {
   overflow: visible !important;
-  border: none !important;
-}
+  border: none !important
+  }
+
 button {
   background: #74ade5;
   border: 1px solid #74ade5;
@@ -2241,78 +2840,94 @@ button {
   -webkit-border-radius: 0;
   border-radius: 0;
   color: #fff;
-  outline: none !important;
-}
+  outline: none !important
+  }
+
 html:lang(nm) button {
   background: #d2d2d2;
   border: 1px solid #c2c2c2;
-  color: #888888;
-}
-#stylesheet_contents,
-#default_stylesheet {
+  color: #888
+  }
+
+#stylesheet_contents, #default_stylesheet {
   font-family: Inconsolata, Courier, "Courier New", monospace;
   font-size: 13px;
-  height: 600px;
-}
+  height: 600px
+  }
+
 .gold-accent.comment-visits-box {
   margin-left: 12px;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border-radius: 0;
-}
+  border-radius: 0
+  }
+  
 .side h2 {
   display: none;
 }
+
 /* == Subscript and superscript by /u/jamt9000 == */
-.md em {
+
+.md em{
   position: relative;
 }
+
 /* *_sub_* */
-.md em em {
+.md em em{
   font-style: normal;
   vertical-align: sub;
   font-size: 80%;
 }
+
 /* *`sup`* */
-.md em code {
+.md em code{
   font-family: verdana, arial, helvetica, sans-serif;
   vertical-align: super;
   font-size: 80%;
+  
   /* Undo the new <code> styles */
-
   border: none;
   background-color: transparent;
   margin: 0;
   padding: 0;
 }
+
 /* *_sub_`sup`* */
-.md em em + code {
+.md em em+code{
   position: absolute;
   left: 0;
   bottom: 1em;
   vertical-align: super;
 }
+
 /* *`sup`_sub_* */
-.md em code + em {
+.md em code+em{
   position: absolute;
   left: 0;
   top: 1em;
   vertical-align: sub;
 }
+
 /*no participation for subs that link with it*/
-body:lang(np) .arrow {
+
+body:lang(np) .arrow
+{ 
   visibility: hidden !important;
 }
+
 body:lang(np) .usertext-edit,
 body:lang(np) .sidebox.submit,
 body:lang(np) .commentingAs,
-body:lang(np) .markdownEditor,
+body:lang(np) .markdownEditor, 
 body:lang(np) .report-button,
 body:lang(np) a[onclick*="return reply(this)"],
-body:lang(np) .helplink {
+body:lang(np) .helplink
+{
   display: none !important;
 }
-body:lang(np) #siteTable:before {
+
+body:lang(np) #siteTable:before
+{
   content: "ELI5 is read-only from this link.";
   display: block;
   max-width: 300px;
@@ -2322,66 +2937,80 @@ body:lang(np) #siteTable:before {
   border: 1px solid orange;
   font-size: small;
 }
+
 body:lang(np) .entry.likes:not(.reddit-entry):before,
-body:lang(np) .entry.dislikes:not(.reddit-entry):before {
+body:lang(np) .entry.dislikes:not(.reddit-entry):before
+{
   content: "ELI5 is read-only from this link.";
   color: red;
   font-size: large;
   font-weight: bold;
 }
-.side:lang(np) a[href="/r/explainlikeimfive/submit?title=ELI5%3A"] {
-  display: none !important;
-}
+
+.side:lang(np) a[href="/r/explainlikeimfive/submit?title=ELI5%3A"] {display:none!important}
+
 /* Attempts to disrupt RES from hiding CSS styles */
 body.res:lang(np) div.titlebox > div[style*='display: block !important'] input:before,
 body.res:lang(np) div.titlebox > div[style*='display: block !important'] label:before,
-body.res:lang(np) > div#keyCommandLineWidget > form:before {
+body.res:lang(np) > div#keyCommandLineWidget > form:before
+{
   content: 'Read-only' !important;
   margin-left: -10000px !important;
-}
+}    
+
 /* Wiki protection */
 body.wiki-page:lang(np) span.pageactions a.wikiaction-edit:not(.wikiaction-current),
 body.wiki-page:lang(np) div.wiki-page-content form#editform label[for='reason'],
 body.wiki-page:lang(np) div.wiki-page-content form#editform input#wiki_revision_reason,
-body.wiki-page:lang(np) div.wiki-page-content form#editform input[type='submit'] {
+body.wiki-page:lang(np) div.wiki-page-content form#editform input[type='submit']
+{
   display: none !important;
 }
+
 .report-reasons.rounded {
   border: none;
   border-radius: 0;
   width: 643px;
   padding: 4px 0;
 }
+
 .reported-stamp.rounded {
   border-radius: 0 !important;
   padding: 0px 4px 1px !important;
 }
+
 .pretty-button {
   border: none;
   border-radius: 0 !important;
   color: #fff;
   padding: 4px 8px;
 }
+
 .pretty-button.negative {
   background-image: none;
   background: #e8898f;
 }
+
 .pretty-button.positive {
   background-image: none;
   background: #b3d686;
 }
+
 .pretty-button.neutral {
   background-image: none;
   background: #bbb;
 }
+
 .comment.stickied {
   border: solid 1px green !important;
-  background-color: #C2E8B3;
+  background-color: #C2E8B3;    
 }
+
 .res-nightmode .comment.stickied {
   border: solid 1px green !important;
-  background-color: #1F2A1A !important;
+  background-color: #1F2A1A !important;    
 }
+
 /*CSS3 sticky comments by /u/creesch */
 .comments-page .sitetable.nestedlisting {
   display: -webkit-flex;
@@ -2392,40 +3021,42 @@ body.wiki-page:lang(np) div.wiki-page-content form#editform input[type='submit']
   flex-direction: column;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap;    
 }
-.comments-page .sitetable.nestedlisting > .thing.id-t1_addcommentidhere,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cy2i609,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cy1ddzf,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cuissm7,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cu0d802,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_ct3obr2,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_csk9ck2,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cpn6x2f,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cp60x66,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cp5ga8k,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_coypacl,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cosdpop,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cnhoy62,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cnbd17b,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cn60ece,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cms0jf8,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cms0iid,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cmqbie3,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cmjl199,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cmi0048,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_cmf9ecm,
-.comments-page .sitetable.nestedlisting > .thing.id-t1_ctf9k0m {
+
+.comments-page .sitetable.nestedlisting>.thing.id-t1_addcommentidhere,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cy2i609,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cy1ddzf,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cuissm7,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cu0d802,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_ct3obr2,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_csk9ck2,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cpn6x2f,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cp60x66,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cp5ga8k,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_coypacl,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cosdpop,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cnhoy62,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cnbd17b,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cn60ece,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cms0jf8,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cms0iid,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cmqbie3,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cmjl199,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cmi0048,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_cmf9ecm,
+.comments-page .sitetable.nestedlisting>.thing.id-t1_ctf9k0m
+{
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
   border: solid 1px green !important;
   background-color: #C2E8B3;
 }
+
 /*end of sticky comment code */
+
 .link.promotedlink.promoted,
 .link.promotedlink.external {
   margin-right: 0;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
